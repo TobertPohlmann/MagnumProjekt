@@ -2,7 +2,7 @@ namespace MagnumProjekt;
 
 public class Gericht : INahrungsmittel
 {
-    public int Brennwert { get; private set; }
+    public double Brennwert { get; private set; }
     public double Eiweiß { get; private set; }
     public double Kohlenhydrat { get; private set; }
     public double Fett { get; private set; }
@@ -34,10 +34,10 @@ public class Gericht : INahrungsmittel
         Fett = 0;
         foreach (KeyValuePair<Zutat,int> zutat in _zutaten)
         {
-            Brennwert += zutat.Value / 100 * zutat.Key.Brennwert;
-            Eiweiß += zutat.Value / 100 * zutat.Key.Eiweiß;
-            Kohlenhydrat += zutat.Value / 100 * zutat.Key.Kohlenhydrat;
-            Fett += zutat.Value / 100 * zutat.Key.Fett;
+            Brennwert += zutat.Value / 100.0 * zutat.Key.Brennwert;
+            Eiweiß += zutat.Value / 100.0 * zutat.Key.Eiweiß;
+            Kohlenhydrat += zutat.Value / 100.0 * zutat.Key.Kohlenhydrat;
+            Fett += zutat.Value / 100.0 * zutat.Key.Fett;
         }
     }
     
