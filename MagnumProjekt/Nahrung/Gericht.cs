@@ -1,4 +1,4 @@
-namespace MagnumProjekt;
+namespace MagnumProjekt.Nahrung;
 
 public class Gericht : INahrungsmittel
 {
@@ -42,8 +42,8 @@ public class Gericht : INahrungsmittel
     }
     
     
-    public void PrintNährwerte()
+    public void PrintNährwerte(double faktor)
     {
-        NährwertSchreiber.PrintNährwerte(Brennwert,Eiweiß,Kohlenhydrat,Fett);
+        NährwertSchreiber.PrintNährwerte(faktor*Brennwert,faktor*Eiweiß,faktor*Kohlenhydrat,faktor*Fett);
     }
 }

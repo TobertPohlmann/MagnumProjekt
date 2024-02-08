@@ -1,4 +1,4 @@
-namespace MagnumProjekt;
+namespace MagnumProjekt.Nahrung;
 
 public class Zutat : INahrungsmittel
 {

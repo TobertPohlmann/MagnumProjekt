@@ -1,4 +1,4 @@
-namespace MagnumProjekt;
+namespace MagnumProjekt.Nahrung;
 
 public class Tagesplan
 {
@@ -34,7 +34,7 @@ public class Tagesplan
         foreach (var gericht in _plan)
         {   
             Console.WriteLine("\n"+gericht.Value +"x  " + gericht.Key.Name + "--------------");
-            gericht.Key.PrintNährwerte();
+            gericht.Key.PrintNährwerte(gericht.Value);
         }
         Console.WriteLine("\n -----------------GESAMTER TAG ----------------");
         NährwertSchreiber.PrintNährwerte(
