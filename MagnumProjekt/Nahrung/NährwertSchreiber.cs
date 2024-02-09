@@ -8,7 +8,7 @@ public class NährwertSchreiber
         string message = (nährwert + ":").WithTabs() + (printValue + einheit).WithTabs();
         if (referenz != null)
         {
-            message += Math.Round(100*value/referenz.Value, 2) + "%";
+            message += Math.Round(100*value/referenz.Value, 2) + "\t%";
         }
         Console.WriteLine(message);
     }

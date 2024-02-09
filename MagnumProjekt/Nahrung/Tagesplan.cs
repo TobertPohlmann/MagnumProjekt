@@ -28,20 +28,4 @@ public class Tagesplan
     {
         _plan[gericht] = faktor;
     }
-
-    public void PrintTagesNährwert()
-    {
-        foreach (var gericht in _plan)
-        {   
-            Console.WriteLine("\n"+gericht.Value +"x  " + gericht.Key.Name + "--------------");
-            gericht.Key.PrintNährwerte(gericht.Value);
-        }
-        Console.WriteLine("\n -----------------GESAMTER TAG ----------------");
-        NährwertSchreiber.PrintNährwerte(
-        _plan.Sum(x => x.Key.Brennwert*x.Value),
-        _plan.Sum(x => x.Key.Eiweiß*x.Value),
-        _plan.Sum(x => x.Key.Kohlenhydrat*x.Value),
-        _plan.Sum(x => x.Key.Fett*x.Value));
-        
-    }
 }

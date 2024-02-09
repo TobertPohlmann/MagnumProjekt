@@ -26,6 +26,21 @@ public class Gericht : INahrungsmittel
         BerechneNährwert();
     }
 
+    public double GetEiweißAnteil()
+    {
+        return Eiweiß / (Eiweiß + Kohlenhydrat + Fett);
+    }
+    
+    public double GetKohlenhydratAnteil()
+    {
+        return Kohlenhydrat / (Eiweiß + Kohlenhydrat + Fett);
+    }
+    
+    public double GetFettAnteil()
+    {
+        return Fett / (Eiweiß + Kohlenhydrat + Fett);
+    }
+
     private void BerechneNährwert()
     {
         Brennwert = 0;
