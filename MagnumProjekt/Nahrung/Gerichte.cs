@@ -1,5 +1,3 @@
-using System.Runtime.InteropServices;
-
 namespace MagnumProjekt.Nahrung;
 
 public static class Gerichte
@@ -15,6 +13,11 @@ public static class Gerichte
     public static Gericht QUICHE = new("Quiche", (Zutaten.WEIZENMEHL, 125), (Zutaten.BUTTER, 70), (Zutaten.WURZELN, 600),
         (Zutaten.SCHMAND, 200),(Zutaten.MILCH,100),(Zutaten.EI,180));
     public static Gericht RÜHREI = new("Rührei", (Zutaten.EI, 60),(Zutaten.BUTTER,5));
+    public static Gericht BACKOFEN_FISCH = new("Backofen-Fisch", (Zutaten.BACKOFEN_FISCH,120));
+    public static Gericht KARTOFFELBREI_EIN_KILO = new("Kartoffelbrei",(Zutaten.MILCH, 185), (Zutaten.BUTTER,10),(Zutaten.KARTOFFELN,800));
+    public static Gericht TOAST_MIT_SPECK_UND_SPIEGELEI = new("Toast mit Speck und Spiegelei",(Zutaten.TOAST,100),(Zutaten.BUTTER,20),(Zutaten.SPECK,30),(Zutaten.EI,120));
+    public static Gericht GEBACKENE_BOHNEN_100G = new("Gebackene Bohnen in Tomatensoße", (Zutaten.GEBACKENE_BOHNEN, 100));
+    public static Gericht TÜTE_CHIPS = new("Eine TÜte mit 150g Chips",(Zutaten.KARTOFFELCHIPS,150));
     
     private static void AlleGerichteSortiertNach(Func<Gericht,double> sortierFunktion, bool aufsteigend)
     {

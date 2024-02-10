@@ -23,4 +23,11 @@ public static class Zutaten
     public static Zutat SOJASOSSE = new Zutat(82, 10, 5.8, 0);
     public static Zutat WEIZENMEHL = new(349,11,72,1);
     public static Zutat SCHMAND = new(236,2.4,2.7,24);
+    public static Zutat BACKOFEN_FISCH = new(194, 12.7, 16.1, 8.6);
+    public static Zutat KARTOFFELN = new(69,2,14,0);
+    public static Zutat GEBACKENE_BOHNEN = new(85, 5, 14, 0.5);
+    public static Zutat SPECK = new(312, 15, 0, 28);
+    public static Zutat TOAST = new(246,10,42,3);
+    public static Zutat KARTOFFELCHIPS = new(528, 5.6, 49, 33);
+    public static Zutat APFEL = new(61,0,0,14);
 }
