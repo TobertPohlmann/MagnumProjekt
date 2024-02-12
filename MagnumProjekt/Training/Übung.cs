@@ -2,5 +2,5 @@ namespace MagnumProjekt.Training;
 
 public enum Übung
 {
-    AssistierterKlimmzug, Ausfallschritt, ÜberkopfStemmen, KomischesDingMitDerStange, KurzhantelRudern, RumänischesKreuzheben 
+    AssistierterKlimmzug, Ausfallschritt, ÜberkopfStemmen, KomischesDingMitDerStange, KurzhantelRudern, RumänischesKreuzheben,FTClubMobilität 
 }

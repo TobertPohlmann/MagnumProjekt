@@ -15,9 +15,15 @@ public static class Gerichte
     public static Gericht RÜHREI = new("Rührei", (Zutaten.EI, 60),(Zutaten.BUTTER,5));
     public static Gericht BACKOFEN_FISCH = new("Backofen-Fisch", (Zutaten.BACKOFEN_FISCH,120));
     public static Gericht KARTOFFELBREI_EIN_KILO = new("Kartoffelbrei",(Zutaten.MILCH, 185), (Zutaten.BUTTER,10),(Zutaten.KARTOFFELN,800));
-    public static Gericht TOAST_MIT_SPECK_UND_SPIEGELEI = new("Toast mit Speck und Spiegelei",(Zutaten.TOAST,100),(Zutaten.BUTTER,20),(Zutaten.SPECK,30),(Zutaten.EI,120));
+    public static Gericht TOAST_MIT_SPECK_UND_SPIEGELEI = new("Toast mit Speck und Spiegelei",(Zutaten.TOAST,33),(Zutaten.BUTTER,20),(Zutaten.SPECK,30),(Zutaten.EI,120));
     public static Gericht GEBACKENE_BOHNEN_100G = new("Gebackene Bohnen in Tomatensoße", (Zutaten.GEBACKENE_BOHNEN, 100));
     public static Gericht TÜTE_CHIPS = new("Eine TÜte mit 150g Chips",(Zutaten.KARTOFFELCHIPS,150));
+    public static Gericht TOAST_MIT_LACHS =
+        new("Toast mit Lachs", (Zutaten.LACHS, 50), (Zutaten.TOAST, 66), (Zutaten.BUTTER, 5));
+    public static Gericht TEE_MIT_MILCH_UND_ZUCKER =
+        new("Tee mit Milch und Zucker", (Zutaten.ZUCKER, 4), (Zutaten.MILCH, 10));
+    public static Gericht WHISKY_FLASCHE = new("Flasche Whisky", (Zutaten.ALKOHOL_40_PROZENT, 700));
+    public static Gericht WHISKY_GLAS = new("Glas Whisky", (Zutaten.ALKOHOL_40_PROZENT, 40));
     
     private static void AlleGerichteSortiertNach(Func<Gericht,double> sortierFunktion, bool aufsteigend)
     {

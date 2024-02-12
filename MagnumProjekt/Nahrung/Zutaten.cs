@@ -30,4 +30,10 @@ public static class Zutaten
     public static Zutat TOAST = new(246,10,42,3);
     public static Zutat KARTOFFELCHIPS = new(528, 5.6, 49, 33);
     public static Zutat APFEL = new(61,0,0,14);
+    public static Zutat AVOCADO = new(233, 2, 6.7, 23.5);
+    public static Zutat HOISSIN_SOSSE = new(227, 2, 51, 1.6);
+    public static Zutat ZUCKER = new(405, 0, 100, 0);
+    public static Zutat MIRIN = new(273, 0, 50, 0);
+    public static Zutat SAKE = new(134, 0, 5, 0);
+    public static Zutat ALKOHOL_40_PROZENT = new(230, 0, 0, 0);
 }
