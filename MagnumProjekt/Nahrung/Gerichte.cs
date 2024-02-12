@@ -27,7 +27,7 @@ public static class Gerichte
     
     private static void AlleGerichteSortiertNach(Func<Gericht,double> sortierFunktion, bool aufsteigend)
     {
-        List<Gericht> alleGerichte = typeof(Gerichte).GetFields().Select(x => x.GetValue(null) as Gericht).OrderByDescending(sortierFunktion).ToList();
+        List<Gericht> alleGerichte = typeof(Gerichte).GetFields().Select(x => (Gericht)x.GetValue(null)).OrderByDescending(sortierFunktion).ToList();
         if (aufsteigend)
         {
             alleGerichte.Reverse();

@@ -8,7 +8,7 @@ public class Kalender
     private Dictionary<DateOnly, Tagesplan> _nahrungsKalender = new();
     private Dictionary<DateOnly, Sitzung> _trainingsKalender = new();
     private Dictionary<DateOnly, double> _gewichtsKalender = new();
-    public void AddNahrung(int tag, int monat, int jahr, params (Gericht,double)[] gerichte)
+    public void AddNahrung(int tag, int monat, int jahr, params Gericht[] gerichte)
     {
         Tagesplan nahrungsplan = new Tagesplan(gerichte);
         DateOnly datum = new DateOnly(jahr, monat, tag);

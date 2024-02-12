@@ -2,15 +2,33 @@ using System.Security.Cryptography;
 
 namespace MagnumProjekt.Nahrung;
 
-public class Gericht : INahrungsmittel
+public struct Gericht : INahrungsmittel
 {
-    public double Brennwert { get; private set; }
-    public double Eiweiß { get; private set; }
-    public double Kohlenhydrat { get; private set; }
-    public double Fett { get; private set; }
+    private double _brennwert;
+    private double _eiweiß;
+    private double _kohlenhydrat;
+    private double _fett;
+    public double Brennwert {
+        get { return _brennwert * _faktor; }
+        private set { _brennwert = value; }
+    }
+    public double Eiweiß {
+        get { return _eiweiß * _faktor; }
+        private set { _eiweiß = value; }
+    }
+    public double Kohlenhydrat {
+        get { return _kohlenhydrat * _faktor; }
+        private set { _kohlenhydrat = value; }
+    }
+    public double Fett {
+        get { return _fett * _faktor; }
+        private set { _fett = value; }
+    }
     public string Name { get; private set; } = "";
     private Dictionary<Zutat,int> Zutaten { get; } = new();
 
+    private double _faktor = 1.0;
+    
     public Gericht(string name, params Zutat[] zutaten)
     {
         Name = name;
@@ -43,11 +61,8 @@ public class Gericht : INahrungsmittel
 
     public static Gericht operator *(double faktor, Gericht a)
     {
-        Gericht b = new(a.Name);
-        foreach (var inhalt in a.Zutaten)
-        {
-            b.AddZutat(Convert.ToInt32(faktor*inhalt.Value),inhalt.Key);            
-        }
+        Gericht b = a;
+        b._faktor = faktor;
         return b;
     }
 
@@ -59,7 +74,7 @@ public class Gericht : INahrungsmittel
 
     public void AddZutat(int menge, Zutat zutat)
     {
-        if (Zutaten.ContainsKey(zutat))
+        if (!Zutaten.ContainsKey(zutat))
         {
             Zutaten[zutat] = 0;
         }

@@ -1,6 +1,6 @@
 namespace MagnumProjekt.Nahrung;
 
-public class Zutat : INahrungsmittel
+public struct Zutat : INahrungsmittel
 {
     public double Brennwert { get; }
     public double Eiweiß { get; }
