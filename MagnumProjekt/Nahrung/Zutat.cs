@@ -17,4 +17,9 @@ public struct Zutat : INahrungsmittel
 
     public static Zutat operator *(double gramm, Zutat a) => new Zutat(gramm/100.0 * a.Brennwert, gramm/100.0 * a.Eiweiß,
         gramm/100.0 * a.Kohlenhydrat, gramm/100.0 * a.Fett);
+
+    public static Gericht operator +(Zutat a, Zutat b)
+    {
+        return new Gericht("Anonymes Gericht", a, b);
+    }
 }

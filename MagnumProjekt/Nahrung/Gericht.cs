@@ -66,6 +66,13 @@ public struct Gericht : INahrungsmittel
         return b;
     }
 
+    public static Gericht operator +(Gericht a, Zutat zutat)
+    {
+        Gericht b = a;
+        b.AddZutat(zutat);
+        return b;
+    }
+    
     public Gericht Namens(string name)
     {
         Name = name;
