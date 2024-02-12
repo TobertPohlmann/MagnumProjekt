@@ -14,6 +14,6 @@ public class Ernährungstagebuch
         kalender.AddNahrung(10,2,2024,
             (Gerichte.TOAST_MIT_SPECK_UND_SPIEGELEI,1),(Gerichte.GEBACKENE_BOHNEN_100G,0.5),(Gerichte.KARTOFFELBREI_EIN_KILO,0.125));
         kalender.AddNahrung(12,2,2024,
-            (Gerichte.KLEINER_SALAT,1),(Gerichte.KICHERERBSENNUDELN_MIT_EI,0.8));
+            (Gerichte.KLEINER_SALAT,1),(Gerichte.KICHERERBSENNUDELN_MIT_EI,0.8),(Gerichte.RÜHREI,3),(Gerichte.HAFERFLOCKEN_MIT_MILCH,1),(Gerichte.EINE_BANANE,1));
     }
 }

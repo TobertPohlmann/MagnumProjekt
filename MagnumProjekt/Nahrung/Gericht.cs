@@ -1,3 +1,5 @@
+using System.Security.Cryptography;
+
 namespace MagnumProjekt.Nahrung;
 
 public class Gericht : INahrungsmittel
@@ -6,24 +8,68 @@ public class Gericht : INahrungsmittel
     public double Eiweiß { get; private set; }
     public double Kohlenhydrat { get; private set; }
     public double Fett { get; private set; }
-
     public string Name { get; private set; } = "";
+    private Dictionary<Zutat,int> Zutaten { get; } = new();
 
-    private Dictionary<Zutat,int> _zutaten = new();
-
-    public Gericht(string name, params (Zutat,int)[] zutaten)
+    public Gericht(string name, params Zutat[] zutaten)
     {
         Name = name;
         foreach (var zutat in zutaten)
         {
-            AddZutat(zutat.Item2,zutat.Item1);
+            AddZutat(zutat);
         }
+    }
+
+    private static Gericht AusKombinationVon(params Gericht[] gerichte)
+    {
+        Gericht neuesGericht = new("temp");
+        string neuerName = "";
+        Zutat dieseZutat;
+        int menge;
+        foreach (var gericht in gerichte)
+        {
+            neuerName += gericht.Name + " + ";
+            foreach (var inhalt in gericht.Zutaten)
+            {
+                dieseZutat = inhalt.Key;
+                menge = inhalt.Value;
+                neuesGericht.AddZutat(menge,dieseZutat);
+            }
+        }
+        return neuesGericht.Namens(neuerName.Substring(0, neuerName.Length - 3));
+    }
+
+    public static Gericht operator +(Gericht a, Gericht b) => Gericht.AusKombinationVon(a,b);
+
+    public static Gericht operator *(double faktor, Gericht a)
+    {
+        Gericht b = new(a.Name);
+        foreach (var inhalt in a.Zutaten)
+        {
+            b.AddZutat(Convert.ToInt32(faktor*inhalt.Value),inhalt.Key);            
+        }
+        return b;
+    }
+
+    public Gericht Namens(string name)
+    {
+        Name = name;
+        return this;
     }
 
     public void AddZutat(int menge, Zutat zutat)
     {
-        _zutaten[zutat] = menge;
+        if (Zutaten.ContainsKey(zutat))
+        {
+            Zutaten[zutat] = 0;
+        }
+        Zutaten[zutat] += menge;
         BerechneNährwert();
+    }
+
+    public void AddZutat(Zutat zutat)
+    {
+        AddZutat(100,zutat);
     }
 
     public double GetEiweißAnteil()
@@ -47,7 +93,7 @@ public class Gericht : INahrungsmittel
         Eiweiß = 0;
         Kohlenhydrat = 0;
         Fett = 0;
-        foreach (KeyValuePair<Zutat,int> zutat in _zutaten)
+        foreach (KeyValuePair<Zutat,int> zutat in Zutaten)
         {
             Brennwert += zutat.Value / 100.0 * zutat.Key.Brennwert;
             Eiweiß += zutat.Value / 100.0 * zutat.Key.Eiweiß;
@@ -59,6 +105,7 @@ public class Gericht : INahrungsmittel
     
     public void PrintNährwerte(double faktor)
     {
+        Console.WriteLine("\n"+faktor+"x "+Name+" -----------");
         NährwertSchreiber.PrintNährwerte(faktor*Brennwert,faktor*Eiweiß,faktor*Kohlenhydrat,faktor*Fett);
     }
 }

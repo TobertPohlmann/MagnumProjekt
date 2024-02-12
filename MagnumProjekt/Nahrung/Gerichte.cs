@@ -2,28 +2,28 @@ namespace MagnumProjekt.Nahrung;
 
 public static class Gerichte
 {
-    public static Gericht KLEINER_SALAT = new ("Kleiner Salat", (Zutaten.SALAT, 40),(Zutaten.WURZELN,35),(Zutaten.GURKE,40),(Zutaten.ÖL,17),(Zutaten.SOJASOSSE,17));
-    public static Gericht HAFERFLOCKEN_MIT_MILCH = new ("Haferflocken mit Milch",(Zutaten.HAFERFLOCKEN, 200), (Zutaten.MILCH, 200));
-    public static Gericht NUDELN_MIT_EI = new ("Vollkornnudeln mit Ei",(Zutaten.VOLLKORNNUDELN, 100), (Zutaten.EI, 300),(Zutaten.BUTTER,30));
-    public static Gericht LACHS_MIT_REIS = new ("Lachs mit Reis",(Zutaten.LACHS, 200), (Zutaten.REIS, 200), (Zutaten.ÖL, 20));
-    public static Gericht NUDELN_MIT_RIND = new ("Rindfleisch mit Nudeln",(Zutaten.RINDFLEISCH, 150), (Zutaten.VOLLKORNNUDELN, 300));
-    public static Gericht KICHERERBSENNUDELN_MIT_EI = new ("Kichererbsennudeln mit Ei",(Zutaten.KICHERERBSENNUDELN, 100), (Zutaten.EI, 280),(Zutaten.ÖL,30));
-    public static Gericht HANDVOLL_MANDELN = new ("Handvoll Mandeln", (Zutaten.MANDELN, 100));
-    public static Gericht EINE_BANANE = new ("Eine Banane",(Zutaten.BANANE, 120));
-    public static Gericht QUICHE = new("Quiche", (Zutaten.WEIZENMEHL, 125), (Zutaten.BUTTER, 70), (Zutaten.WURZELN, 600),
-        (Zutaten.SCHMAND, 200),(Zutaten.MILCH,100),(Zutaten.EI,180));
-    public static Gericht RÜHREI = new("Rührei", (Zutaten.EI, 60),(Zutaten.BUTTER,5));
-    public static Gericht BACKOFEN_FISCH = new("Backofen-Fisch", (Zutaten.BACKOFEN_FISCH,120));
-    public static Gericht KARTOFFELBREI_EIN_KILO = new("Kartoffelbrei",(Zutaten.MILCH, 185), (Zutaten.BUTTER,10),(Zutaten.KARTOFFELN,800));
-    public static Gericht TOAST_MIT_SPECK_UND_SPIEGELEI = new("Toast mit Speck und Spiegelei",(Zutaten.TOAST,33),(Zutaten.BUTTER,20),(Zutaten.SPECK,30),(Zutaten.EI,120));
-    public static Gericht GEBACKENE_BOHNEN_100G = new("Gebackene Bohnen in Tomatensoße", (Zutaten.GEBACKENE_BOHNEN, 100));
-    public static Gericht TÜTE_CHIPS = new("Eine TÜte mit 150g Chips",(Zutaten.KARTOFFELCHIPS,150));
+    public static Gericht KLEINER_SALAT = new ("Kleiner Salat", 40*Zutaten.SALAT,35*Zutaten.WURZELN,40*Zutaten.GURKE,17*Zutaten.ÖL,17*Zutaten.SOJASOSSE);
+    public static Gericht KICHERERBSENNUDELN_MIT_EI = new ("Kichererbsennudeln mit Ei",100*Zutaten.KICHERERBSENNUDELN, 280*Zutaten.EI,20*Zutaten.ÖL);
+    public static Gericht HANDVOLL_MANDELN = new ("Handvoll Mandeln", 100*Zutaten.MANDELN);
+    public static Gericht EINE_BANANE = new ("Eine Banane",120*Zutaten.BANANE);
+    public static Gericht QUICHE = new("Quiche", 125*Zutaten.WEIZENMEHL, 70*Zutaten.BUTTER, 600*Zutaten.WURZELN,
+        200*Zutaten.SCHMAND,100*Zutaten.MILCH,180*Zutaten.EI);
+    public static Gericht RÜHREI = new("Rührei", 60*Zutaten.EI,5*Zutaten.BUTTER);
+    public static Gericht BACKOFEN_FISCH = new("Backofen-Fisch", 120*Zutaten.BACKOFEN_FISCH);
+    public static Gericht KARTOFFELBREI_EIN_KILO = new("Kartoffelbrei",185*Zutaten.MILCH, 10*Zutaten.BUTTER,800*Zutaten.KARTOFFELN);
+    public static Gericht TOAST_MIT_SPECK_UND_SPIEGELEI = new("Toast mit Speck und Spiegelei",33*Zutaten.TOAST,20*Zutaten.BUTTER,30*Zutaten.SPECK,120*Zutaten.EI);
+    public static Gericht GEBACKENE_BOHNEN_100G = new("Gebackene Bohnen in Tomatensoße", 100*Zutaten.GEBACKENE_BOHNEN);
+    public static Gericht TÜTE_CHIPS = new("Eine TÜte mit 150g Chips",150*Zutaten.KARTOFFELCHIPS);
     public static Gericht TOAST_MIT_LACHS =
-        new("Toast mit Lachs", (Zutaten.LACHS, 50), (Zutaten.TOAST, 66), (Zutaten.BUTTER, 5));
+        new("Toast mit Lachs", 50*Zutaten.LACHS, 66*Zutaten.TOAST, 5*Zutaten.BUTTER);
     public static Gericht TEE_MIT_MILCH_UND_ZUCKER =
-        new("Tee mit Milch und Zucker", (Zutaten.ZUCKER, 4), (Zutaten.MILCH, 10));
-    public static Gericht WHISKY_FLASCHE = new("Flasche Whisky", (Zutaten.ALKOHOL_40_PROZENT, 700));
-    public static Gericht WHISKY_GLAS = new("Glas Whisky", (Zutaten.ALKOHOL_40_PROZENT, 40));
+        new("Tee mit Milch und Zucker", 4*Zutaten.ZUCKER, 10*Zutaten.MILCH);
+    public static Gericht WHISKY_FLASCHE = new("Flasche Whisky", 700*Zutaten.ALKOHOL_40_PROZENT);
+    public static Gericht WHISKY_GLAS = new("Glas Whisky", 40*Zutaten.ALKOHOL_40_PROZENT);
+    public static Gericht HAFERFLOCKEN_MIT_MILCH =
+        new("Haferflocken mit Milch", 100*Zutaten.HAFERFLOCKEN, 180*Zutaten.MILCH);
+    public static Gericht BOHNEN_UND_KICHERERBSENNUDELN = new("Gebackene Bohnen und Kichererbsennudeln", 150*Zutaten.KICHERERBSENNUDELN,
+        200*Zutaten.GEBACKENE_BOHNEN);
     
     private static void AlleGerichteSortiertNach(Func<Gericht,double> sortierFunktion, bool aufsteigend)
     {

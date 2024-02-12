@@ -2,7 +2,7 @@ namespace MagnumProjekt.Nahrung;
 
 public static class Zutaten
 {
-    public static Zutat EI = new Zutat(Convert.ToInt32(89 / 0.6), 7.5 / 0.6, 0.4 / 0.6, 6.5 / 0.6);
+    public static Zutat EI = new Zutat(150, 12.5, 0.7, 11);
     public static Zutat HAFERFLOCKEN  = new Zutat(339,12.5,55,6.5);
     public static Zutat HÄHNCHENBRUST  = new Zutat(102,24,0,0.7);
     public static Zutat RINDFLEISCH = new Zutat(150,19,0,8);

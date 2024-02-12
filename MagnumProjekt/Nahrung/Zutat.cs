@@ -14,4 +14,7 @@ public class Zutat : INahrungsmittel
         Kohlenhydrat = kohlenhydrat;
         Fett = fett;
     }
+
+    public static Zutat operator *(double gramm, Zutat a) => new Zutat(gramm/100.0 * a.Brennwert, gramm/100.0 * a.Eiweiß,
+        gramm/100.0 * a.Kohlenhydrat, gramm/100.0 * a.Fett);
 }
