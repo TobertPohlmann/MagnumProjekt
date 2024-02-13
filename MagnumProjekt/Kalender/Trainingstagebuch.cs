@@ -23,5 +23,9 @@ public class TrainingsKalender
             new ÜbungsEinheit(Übung.GewichthebenZurBrust,(10,6),(10,6),(10,6),(20,6)),
             new ÜbungsEinheit(Übung.BankKniebeugen,30)
         ));
+        
+        kalender.AddTraining(13,2,2024,new Sitzung(60,
+            new ÜbungsEinheit(Übung.FTClubMobilität,1)
+        ));
     }
 }
