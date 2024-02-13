@@ -36,4 +36,5 @@ public static class Zutaten
     public static Zutat MIRIN = new(273, 0, 50, 0);
     public static Zutat SAKE = new(134, 0, 5, 0);
     public static Zutat ALKOHOL_40_PROZENT = new(230, 0, 0, 0);
+    public static Zutat GEFÜLLTE_TORTELLINI = new(232,10.5,35,5);
 }

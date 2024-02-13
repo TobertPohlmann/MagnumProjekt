@@ -24,6 +24,7 @@ public static class Gerichte
         new("Haferflocken mit Milch", 100*Zutaten.HAFERFLOCKEN, 180*Zutaten.MILCH);
     public static Gericht BOHNEN_UND_KICHERERBSENNUDELN = new("Gebackene Bohnen und Kichererbsennudeln", 150*Zutaten.KICHERERBSENNUDELN,
         200*Zutaten.GEBACKENE_BOHNEN);
+    public static Gericht GEFÜLLTE_TORTELLINI_SUPPE= new("Suppe mit Tortellini", 300*Zutaten.GEFÜLLTE_TORTELLINI,5*Zutaten.ÖL,10*Zutaten.SOJASOSSE);
     
     private static void AlleGerichteSortiertNach(Func<Gericht,double> sortierFunktion, bool aufsteigend)
     {

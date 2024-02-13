@@ -31,5 +31,9 @@ public class Ernährungstagebuch
             3*Gerichte.RÜHREI,
             Gerichte.HAFERFLOCKEN_MIT_MILCH,
             Gerichte.EINE_BANANE);
+        
+        kalender.AddNahrung(13,2,2024,
+            Gerichte.KLEINER_SALAT,
+            Gerichte.GEFÜLLTE_TORTELLINI_SUPPE);
     }
 }
