@@ -6,6 +6,7 @@ public class Ernährungstagebuch
 {
     public static void SchreibeErnährungsTagebuchIn(Kalender kalender)
     {
+        /*
         kalender.AddNahrung(8,2,2024,
             Gerichte.KICHERERBSENNUDELN_MIT_EI,
             2*Gerichte.KLEINER_SALAT,
@@ -31,9 +32,11 @@ public class Ernährungstagebuch
             3*Gerichte.RÜHREI,
             Gerichte.HAFERFLOCKEN_MIT_MILCH,
             Gerichte.EINE_BANANE);
-        
+        */
         kalender.AddNahrung(13,2,2024,
             Gerichte.KLEINER_SALAT,
-            Gerichte.GEFÜLLTE_TORTELLINI_SUPPE);
+            Gerichte.GEFÜLLTE_TORTELLINI_SUPPE,
+            (3*Gerichte.RÜHREI + 150*Zutaten.VOLLKORNNUDELN + 180*Zutaten.GEBACKENE_BOHNEN).Namens("Nudeln mit Ei und Bohnen"),
+            Gerichte.EINE_BANANE);
     }
 }

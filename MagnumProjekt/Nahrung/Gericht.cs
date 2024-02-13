@@ -1,5 +1,3 @@
-using System.Security.Cryptography;
-
 namespace MagnumProjekt.Nahrung;
 
 public struct Gericht : INahrungsmittel
@@ -10,22 +8,18 @@ public struct Gericht : INahrungsmittel
     private double _fett;
     public double Brennwert {
         get { return _brennwert * _faktor; }
-        private set { _brennwert = value; }
     }
     public double Eiweiß {
         get { return _eiweiß * _faktor; }
-        private set { _eiweiß = value; }
     }
     public double Kohlenhydrat {
         get { return _kohlenhydrat * _faktor; }
-        private set { _kohlenhydrat = value; }
     }
     public double Fett {
         get { return _fett * _faktor; }
-        private set { _fett = value; }
     }
     public string Name { get; private set; } = "";
-    private Dictionary<Zutat,int> Zutaten { get; } = new();
+    private Dictionary<string,Beigabe> Zutaten { get; } = new();
 
     private double _faktor = 1.0;
     
@@ -49,8 +43,8 @@ public struct Gericht : INahrungsmittel
             neuerName += gericht.Name + " + ";
             foreach (var inhalt in gericht.Zutaten)
             {
-                dieseZutat = inhalt.Key;
-                menge = inhalt.Value;
+                dieseZutat = inhalt.Value.Zutat;
+                menge = inhalt.Value.Menge;
                 neuesGericht.AddZutat(menge,dieseZutat);
             }
         }
@@ -69,8 +63,13 @@ public struct Gericht : INahrungsmittel
     public static Gericht operator +(Gericht a, Zutat zutat)
     {
         Gericht b = a;
-        b.AddZutat(zutat);
+        b.AddZutat(zutat/b._faktor);
         return b;
+    }
+    
+    public static Gericht operator +(Zutat zutat, Gericht a)
+    {
+        return a + zutat;
     }
     
     public Gericht Namens(string name)
@@ -81,11 +80,15 @@ public struct Gericht : INahrungsmittel
 
     public void AddZutat(int menge, Zutat zutat)
     {
-        if (!Zutaten.ContainsKey(zutat))
+        if (!Zutaten.ContainsKey(zutat.Name))
         {
-            Zutaten[zutat] = 0;
+            Zutaten[zutat.Name] = new Beigabe(zutat,menge);
         }
-        Zutaten[zutat] += menge;
+        else
+        {
+            int vorigeMenge = Zutaten[zutat.Name].Menge;
+            Zutaten[zutat.Name] = new Beigabe(zutat,menge+vorigeMenge);
+        }
         BerechneNährwert();
     }
 
@@ -111,19 +114,18 @@ public struct Gericht : INahrungsmittel
 
     private void BerechneNährwert()
     {
-        Brennwert = 0;
-        Eiweiß = 0;
-        Kohlenhydrat = 0;
-        Fett = 0;
-        foreach (KeyValuePair<Zutat,int> zutat in Zutaten)
+        _brennwert = 0;
+        _eiweiß = 0;
+        _kohlenhydrat = 0;
+        _fett = 0;
+        foreach (Beigabe beigabe in Zutaten.Values)
         {
-            Brennwert += zutat.Value / 100.0 * zutat.Key.Brennwert;
-            Eiweiß += zutat.Value / 100.0 * zutat.Key.Eiweiß;
-            Kohlenhydrat += zutat.Value / 100.0 * zutat.Key.Kohlenhydrat;
-            Fett += zutat.Value / 100.0 * zutat.Key.Fett;
+            _brennwert += beigabe.Menge / 100.0 * beigabe.Zutat.Brennwert;
+            _eiweiß += beigabe.Menge / 100.0 * beigabe.Zutat.Eiweiß;
+            _kohlenhydrat += beigabe.Menge / 100.0 * beigabe.Zutat.Kohlenhydrat;
+            _fett += beigabe.Menge / 100.0 * beigabe.Zutat.Fett;
         }
     }
-    
     
     public void PrintNährwerte(double faktor)
     {
@@ -131,3 +133,5 @@ public struct Gericht : INahrungsmittel
         NährwertSchreiber.PrintNährwerte(faktor*Brennwert,faktor*Eiweiß,faktor*Kohlenhydrat,faktor*Fett);
     }
 }
+
+public record Beigabe(Zutat Zutat, int Menge);
