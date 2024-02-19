@@ -6,7 +6,6 @@ public class Ernährungstagebuch
 {
     public static void SchreibeErnährungsTagebuchIn(Kalender kalender)
     {
-        /*
         kalender.AddNahrung(8,2,2024,
             Gerichte.KICHERERBSENNUDELN_MIT_EI,
             2*Gerichte.KLEINER_SALAT,
@@ -32,11 +31,35 @@ public class Ernährungstagebuch
             3*Gerichte.RÜHREI,
             Gerichte.HAFERFLOCKEN_MIT_MILCH,
             Gerichte.EINE_BANANE);
-        */
+        
         kalender.AddNahrung(13,2,2024,
             Gerichte.KLEINER_SALAT,
             Gerichte.GEFÜLLTE_TORTELLINI_SUPPE,
             (3*Gerichte.RÜHREI + 150*Zutaten.VOLLKORNNUDELN + 180*Zutaten.GEBACKENE_BOHNEN).Namens("Nudeln mit Ei und Bohnen"),
             Gerichte.EINE_BANANE);
+        
+        kalender.AddNahrung(14,2,2024,
+            Gerichte.KLEINER_SALAT,
+            Gerichte.GEFÜLLTE_TORTELLINI_SUPPE,
+            0.3*Gerichte.KICHERERBSEN_LAUCH_SUPPE,
+            0.3*Gerichte.TÜTE_CHIPS);
+            
+        kalender.AddNahrung(15,2,2024,
+            Gerichte.KLEINER_SALAT,
+            0.3*Gerichte.KICHERERBSEN_LAUCH_SUPPE,
+            Gerichte.EIN_BUENO,
+            Gerichte.EIN_DUPLO);
+
+        kalender.AddNahrung(16, 2, 2024,
+            Gerichte.KLEINER_SALAT,
+            Gerichte.GEFÜLLTE_TORTELLINI_SUPPE,
+            3 * Gerichte.RÜHREI);
+        
+        kalender.AddNahrung(19,2,2024,
+            Gerichte.KLEINER_SALAT,
+            (200*Zutaten.SCHWEINEFILET + 200*Zutaten.VOLLKORNNUDELN + 30*Zutaten.ÖL + 50*Zutaten.SAHNE).Namens("Schweinefilet mit Vollkornnudeln und Soße")
+            );
+
     }
+    
 }

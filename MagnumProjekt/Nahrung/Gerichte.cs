@@ -25,6 +25,12 @@ public static class Gerichte
     public static Gericht BOHNEN_UND_KICHERERBSENNUDELN = new("Gebackene Bohnen und Kichererbsennudeln", 150*Zutaten.KICHERERBSENNUDELN,
         200*Zutaten.GEBACKENE_BOHNEN);
     public static Gericht GEFÜLLTE_TORTELLINI_SUPPE= new("Suppe mit Tortellini", 300*Zutaten.GEFÜLLTE_TORTELLINI,5*Zutaten.ÖL,10*Zutaten.SOJASOSSE);
+
+    public static Gericht KICHERERBSEN_LAUCH_SUPPE = new("Kichererbsen-Lauch-Suppe",
+        450 * Zutaten.KICHERERBSEN, 5 * 150 * Zutaten.LAUCH, Zutaten.KARTOFFELN, 10*Zutaten.ÖL,10 * Zutaten.BUTTER);
+
+    public static Gericht EIN_BUENO = new("Ein Bueno", 22 * Zutaten.KINDER_BUENO);
+    public static Gericht EIN_DUPLO = new("Ein Duplo", 19 * Zutaten.DUPLO);
     
     private static void AlleGerichteSortiertNach(Func<Gericht,double> sortierFunktion, bool aufsteigend)
     {

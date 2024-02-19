@@ -10,6 +10,8 @@ public static class Zutaten
     public static Zutat BANANE = new Zutat("Banane",93, 1.15, 23, 0.2);
     public static Zutat BROKKOLI = new Zutat("Brokkoli",43,4,2.9,0.2);
     public static Zutat BUTTER = new Zutat("Butter",717, 0.9, 0.1, 81);
+
+    public static Zutat DUPLO = new("Duplo", 555, 6, 56, 34);
     
     public static Zutat EI = new Zutat("Ei",150, 12.5, 0.7, 11);
     
@@ -23,15 +25,20 @@ public static class Zutaten
     
     public static Zutat KARTOFFELCHIPS = new("Kartoffelchips",528, 5.6, 49, 33);
     public static Zutat KARTOFFELN = new("Kartoffeln",69,2,14,0);
+    public static Zutat KICHERERBSEN = new("Kichererbsen",119,9,17,2);
     public static Zutat KICHERERBSENNUDELN = new Zutat("Kichererbsennudeln",364,22,51,6);
+    public static Zutat KINDER_BUENO = new("Kinder Bueno", 572, 8.6, 49.5, 37.3);
     
     public static Zutat LACHS = new Zutat("Lachs",180,19.9,0,11.2);
+    public static Zutat LAUCH = new("Lauch", 29, 2, 3, 0);
     
     public static Zutat MANDELN = new Zutat("Mandeln",611,24,5.7,53);
     public static Zutat MILCH = new Zutat("Milch",64,3.3,4.8,3.5);
     public static Zutat MIRIN = new("Mirin",273, 0, 50, 0);
     
     public static Zutat ÖL = new Zutat("Öl",884,0,0,100);
+
+    public static Zutat PARMESAN = new("Parmesan",431,38,4,29);
     
     public static Zutat REIS = new Zutat("Reis",347, 7.3, 77.3, 0.9);
     public static Zutat RINDFLEISCH = new Zutat("Rindfleisch",150,19,0,8);
@@ -39,6 +46,7 @@ public static class Zutaten
     public static Zutat SALAT = new Zutat("Salat",14, 1.2, 1.1, 0);
     public static Zutat SAKE = new("Sake",134, 0, 5, 0);
     public static Zutat SCHMAND = new("Schmand",236,2.4,2.7,24);
+    public static Zutat SCHWEINEFILET = new("Schweinefilet", 143, 26, 0, 4);
     public static Zutat SOJASOSSE = new Zutat("Sojasoße",82, 10, 5.8, 0);
     public static Zutat SPECK = new("Speck",312, 15, 0, 28);
     public static Zutat TOAST = new("Toast",246,10,42,3);
@@ -50,4 +58,8 @@ public static class Zutaten
     public static Zutat WURZELN = new Zutat("Wurzeln",25, 1, 4.8, 0);
     
     public static Zutat ZUCKER = new("Zucker",405, 0, 100, 0);
+    public static Zutat GRAUBROT = new ("Graubrot", 245, 8, 53, 1);
+    public static Zutat NUTELLA = new("Nutella", 550, 6, 57, 32);
+    public static Zutat SAHNE = new("Sahne", 292, 2, 3, 30);
+
 }
