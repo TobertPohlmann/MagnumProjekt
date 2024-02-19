@@ -17,6 +17,11 @@ public struct Zutat : INahrungsmittel
         Fett = fett;
     }
 
+    public Gericht AlsGericht()
+    {
+        return new Gericht(Name, this);
+    }
+
     public static Zutat operator *(double gramm, Zutat a) => new Zutat(a.Name,gramm/100.0 * a.Brennwert, gramm/100.0 * a.Eiweiß,
         gramm/100.0 * a.Kohlenhydrat, gramm/100.0 * a.Fett);
 
