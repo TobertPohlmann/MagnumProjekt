@@ -8,6 +8,7 @@ public static class Zutaten
 
     public static Zutat BACKOFEN_FISCH = new("Backofenfisch",194, 12.7, 16.1, 8.6);
     public static Zutat BANANE = new Zutat("Banane",93, 1.15, 23, 0.2);
+    public static Zutat BRATWURST = new Zutat("Bratwurst", 297, 12, 2, 36);
     public static Zutat BROKKOLI = new Zutat("Brokkoli",43,4,2.9,0.2);
     public static Zutat BUTTER = new Zutat("Butter",717, 0.9, 0.1, 81);
 
@@ -17,6 +18,7 @@ public static class Zutaten
     
     public static Zutat GEBACKENE_BOHNEN = new("Gebackene Bohnen",85, 5, 14, 0.5);
     public static Zutat GEFÜLLTE_TORTELLINI = new("Gefüllte Tortellini",232,10.5,35,5);
+    public static Zutat GEWÜRZ_KETCHUP = new("Gewürzketchup", 135, 1, 30, 0);
     public static Zutat GURKE = new Zutat("Gurke",12, 0.6, 1.8, 0.2);
     
     public static Zutat HAFERFLOCKEN  = new Zutat("Haferflocken",339,12.5,55,6.5);

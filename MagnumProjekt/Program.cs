@@ -9,6 +9,6 @@ Ernährungstagebuch.SchreibeErnährungsTagebuchIn(kalender);
 TrainingsKalender.SchreibeTrainingsTagebuchIn(kalender);
 Gewichtstagebuch.SchreibeGewichtsTagebuchIn(kalender);
 
-kalender.GetErnährung(19,2,2024).PrintTagesNährwert();
+kalender.GetErnährung(20,2,2024).PrintTagesNährwert();
 
 //Gerichte.AlleGerichte(Nährwert.Eiweiß,false);

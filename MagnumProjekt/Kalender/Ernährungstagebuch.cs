@@ -59,6 +59,13 @@ public class Ernährungstagebuch
             Gerichte.KLEINER_SALAT,
             (200*Zutaten.SCHWEINEFILET + 200*Zutaten.VOLLKORNNUDELN + 30*Zutaten.ÖL + 50*Zutaten.SAHNE).Namens("Schweinefilet mit Vollkornnudeln und Soße")
             );
+        
+        kalender.AddNahrung(20,2,2024,
+            200*Zutaten.VOLLKORNNUDELN+200*Zutaten.BRATWURST + 30*Zutaten.GEWÜRZ_KETCHUP,
+            Gerichte.EINE_BANANE,
+            4*Gerichte.RÜHREI,
+            112*Zutaten.HAFERFLOCKEN + 180*Zutaten.MILCH + 30*Zutaten.MANDELN
+        );
 
     }
     

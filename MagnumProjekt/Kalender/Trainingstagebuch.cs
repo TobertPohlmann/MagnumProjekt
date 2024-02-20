@@ -27,5 +27,14 @@ public class TrainingsKalender
         kalender.AddTraining(13,2,2024,new Sitzung(60,
             new ÜbungsEinheit(Übung.FTClubMobilität,1)
         ));
+        
+        kalender.AddTraining(20,2,2024,new Sitzung(120,
+            new ÜbungsEinheit(Übung.FTClubMobilität,1),
+            new ÜbungsEinheit(Übung.HollowPress,(7,8),(7,6),(7,4),(8,5)),
+            new ÜbungsEinheit(Übung.KuhglockenKreuzheben,(12,8),(12,8),(12,8),(16,8)),
+            new ÜbungsEinheit(Übung.KuhglockenRudern,(8,8),(8,8),(8,8),(8,12)),
+            new ÜbungsEinheit(Übung.KisteSteigen,8,8,8,8),
+            new ÜbungsEinheit(Übung.ZirkelTraining,1)
+        ));
     }
 }
