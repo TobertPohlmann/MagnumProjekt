@@ -64,7 +64,15 @@ public class Ernährungstagebuch
             200*Zutaten.VOLLKORNNUDELN+200*Zutaten.BRATWURST + 30*Zutaten.GEWÜRZ_KETCHUP,
             Gerichte.EINE_BANANE,
             4*Gerichte.RÜHREI,
-            112*Zutaten.HAFERFLOCKEN + 180*Zutaten.MILCH + 30*Zutaten.MANDELN
+            200*Zutaten.HAFERFLOCKEN + 350*Zutaten.MILCH + 30*Zutaten.MANDELN
+        );
+        
+        
+        kalender.AddNahrung(21,2,2024,
+            Gerichte.KLEINER_SALAT,
+//            180*Zutaten.EI+120*Zutaten.KICHERERBSENNUDELN+20*Zutaten.ÖL,
+            3*Gerichte.RÜHREI+120*Zutaten.KICHERERBSENNUDELN,
+            Gerichte.EIN_MANDELHÖRNCHEN
         );
 
     }

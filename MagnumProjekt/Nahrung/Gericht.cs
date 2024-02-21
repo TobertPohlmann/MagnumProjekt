@@ -51,18 +51,24 @@ public struct Gericht : INahrungsmittel
         return neuesGericht.Namens(neuerName.Substring(0, neuerName.Length - 3));
     }
 
+    private Gericht Kopie()
+    {
+        return AusKombinationVon(new[] { this });
+    }
+
     public static Gericht operator +(Gericht a, Gericht b) => Gericht.AusKombinationVon(a,b);
 
     public static Gericht operator *(double faktor, Gericht a)
     {
-        Gericht b = a;
+        Gericht b = a.Kopie();
         b._faktor = faktor;
         return b;
     }
 
     public static Gericht operator +(Gericht a, Zutat zutat)
     {
-        Gericht b = a;
+        Gericht b = a.Kopie();
+        b.Name += " mit " + zutat.Name;
         b.AddZutat(zutat/b._faktor);
         return b;
     }

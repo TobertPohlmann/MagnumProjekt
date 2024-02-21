@@ -33,7 +33,8 @@ public static class Zutaten
     
     public static Zutat LACHS = new Zutat("Lachs",180,19.9,0,11.2);
     public static Zutat LAUCH = new("Lauch", 29, 2, 3, 0);
-    
+
+    public static Zutat MANDELHÖRNCHEN = new Zutat("Mandelhörnchen",435, 8, 46, 22);
     public static Zutat MANDELN = new Zutat("Mandeln",611,24,5.7,53);
     public static Zutat MILCH = new Zutat("Milch",64,3.3,4.8,3.5);
     public static Zutat MIRIN = new("Mirin",273, 0, 50, 0);

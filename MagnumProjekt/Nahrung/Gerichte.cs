@@ -31,6 +31,7 @@ public static class Gerichte
 
     public static Gericht EIN_BUENO = new("Ein Bueno", 22 * Zutaten.KINDER_BUENO);
     public static Gericht EIN_DUPLO = new("Ein Duplo", 19 * Zutaten.DUPLO);
+    public static Gericht EIN_MANDELHÖRNCHEN = new("Ein Mandelhörnchen", 150 * Zutaten.MANDELHÖRNCHEN);
     
     private static void AlleGerichteSortiertNach(Func<Gericht,double> sortierFunktion, bool aufsteigend)
     {
