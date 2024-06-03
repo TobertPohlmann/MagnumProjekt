@@ -36,6 +36,12 @@ public static class Gerichte
 
     public static Gericht ELINS_FRÜHSTÜCK = new("Elin Frühstück", 100 * Zutaten.HAFERFLOCKEN, 200 * Zutaten.MILCH,
         20 * Zutaten.SONNENBLUMENKERNE, 20 * Zutaten.HIMBEEREN, 100 * Zutaten.APFEL);
+
+    public static Gericht LACHS_MIT_MÖHREN_TAGLIATELLE = new("Lachs mit Möhrentagliatelle",150*Zutaten.LACHS,150*Zutaten.WURZELN,150*Zutaten.GRÜNER_SPARGEL,21*Zutaten.ÖL);
+    public static Gericht BROT_SELBSTGEBACKEN = new("Selbstgebackenes Brot",750*Zutaten.DINKELVOLLKORNMEHL,180*Zutaten.SONNENBLUMENKERNE,50*Zutaten.LEINSAMEN);
+    public static Gericht SCHEIBE_BROT_SELBSTGEBACKEN = 0.05 * BROT_SELBSTGEBACKEN;
+    public static Gericht BROT_MIT_KÖRNIGEM_FRISCHKÄSE = (SCHEIBE_BROT_SELBSTGEBACKEN + 5 * Zutaten.BUTTER + 50*Zutaten.KÖRNIGER_FRISCHKÄSE).Namens("Brot mit körnigem Frischkäse");
+    
     
     private static void AlleGerichteSortiertNach(Func<Gericht,double> sortierFunktion, bool aufsteigend)
     {

@@ -44,7 +44,7 @@ public struct Gericht : INahrungsmittel
             foreach (var inhalt in gericht.Zutaten)
             {
                 dieseZutat = inhalt.Value.Zutat;
-                menge = inhalt.Value.Menge;
+                menge = (int)(inhalt.Value.Menge*gericht._faktor);
                 neuesGericht.AddZutat(menge,dieseZutat);
             }
         }

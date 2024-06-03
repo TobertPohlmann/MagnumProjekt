@@ -5,12 +5,13 @@ using MagnumProjekt.Nahrung;
 
 Kalender kalender = new();
 
-Ernährungstagebuch.SchreibeErnährungsTagebuchIn(kalender);
-TrainingsKalender.SchreibeTrainingsTagebuchIn(kalender);
-Gewichtstagebuch.SchreibeGewichtsTagebuchIn(kalender);
+//Ernährungstagebuch.SchreibeElinsErnährungsTagebuchIn(kalender);
+//TrainingsKalender.SchreibeTrainingsTagebuchIn(kalender);
+//Gewichtstagebuch.SchreibeGewichtsTagebuchIn(kalender);
 
-//kalender.GetErnährung(30,4,2024).PrintTagesNährwert();
+//kalender.GetErnährung(3,6,2024).PrintTagesNährwert();
 
-Gerichte.ELINS_FRÜHSTÜCK.PrintNährwerte(1);
+//Gerichte.BROT_SELBSTGEBACKEN.PrintNährwerte(1);
+//Gerichte.SCHEIBE_BROT_SELBSTGEBACKEN.PrintNährwerte(1);
 
-//Gerichte.AlleGerichte(Nährwert.Eiweiß,false);
+Gerichte.BROT_MIT_KÖRNIGEM_FRISCHKÄSE.PrintNährwerte(1);

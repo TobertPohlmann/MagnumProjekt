@@ -78,7 +78,14 @@ public class Ernährungstagebuch
             100*Zutaten.KICHERERBSENNUDELN + 3*Gerichte.RÜHREI,
             Gerichte.KLEINER_SALAT
             );
-        
     }
-    
+    public static void SchreibeElinsErnährungsTagebuchIn(Kalender kalender)
+    {
+        kalender.AddNahrung(3,6,2024,
+            Gerichte.ELINS_FRÜHSTÜCK,
+            Gerichte.LACHS_MIT_MÖHREN_TAGLIATELLE,
+            Zutaten.APFEL.AlsGericht(),
+            4*Gerichte.TEE_MIT_MILCH_UND_ZUCKER,
+            (300*Zutaten.WASSERMELONE).AlsGericht());
+    }
 }
