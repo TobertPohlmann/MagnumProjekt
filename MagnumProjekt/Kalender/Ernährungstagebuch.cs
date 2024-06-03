@@ -66,15 +66,19 @@ public class Ernährungstagebuch
             4*Gerichte.RÜHREI,
             200*Zutaten.HAFERFLOCKEN + 350*Zutaten.MILCH + 30*Zutaten.MANDELN
         );
-        
-        
-        kalender.AddNahrung(21,2,2024,
-            Gerichte.KLEINER_SALAT,
-//            180*Zutaten.EI+120*Zutaten.KICHERERBSENNUDELN+20*Zutaten.ÖL,
-            3*Gerichte.RÜHREI+120*Zutaten.KICHERERBSENNUDELN,
-            Gerichte.EIN_MANDELHÖRNCHEN
+
+        kalender.AddNahrung(29,4,2024,
+            100*Zutaten.HAFERFLOCKEN+150*Zutaten.MILCH+20*Zutaten.PINIENKERNE,
+            80*Zutaten.KICHERERBSENNUDELN + 3*Gerichte.RÜHREI,
+            2*Gerichte.KLEINER_SALAT,
+            300*Zutaten.BRATWURST + 90*Zutaten.KRÄUTERBUTTERBROT + 25*Zutaten.GEWÜRZ_KETCHUP
         );
 
+        kalender.AddNahrung(30,4,2024,
+            100*Zutaten.KICHERERBSENNUDELN + 3*Gerichte.RÜHREI,
+            Gerichte.KLEINER_SALAT
+            );
+        
     }
     
 }

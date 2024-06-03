@@ -15,7 +15,9 @@ public static class Zutaten
     public static Zutat DUPLO = new("Duplo", 555, 6, 56, 34);
     
     public static Zutat EI = new Zutat("Ei",150, 12.5, 0.7, 11);
-    
+
+    public static Zutat FETTARME_MILCH = new Zutat("Milch",64,3.3,4.8,1.5);
+
     public static Zutat GEBACKENE_BOHNEN = new("Gebackene Bohnen",85, 5, 14, 0.5);
     public static Zutat GEFÜLLTE_TORTELLINI = new("Gefüllte Tortellini",232,10.5,35,5);
     public static Zutat GEWÜRZ_KETCHUP = new("Gewürzketchup", 135, 1, 30, 0);
@@ -29,6 +31,7 @@ public static class Zutaten
     public static Zutat KARTOFFELN = new("Kartoffeln",69,2,14,0);
     public static Zutat KICHERERBSEN = new("Kichererbsen",119,9,17,2);
     public static Zutat KICHERERBSENNUDELN = new Zutat("Kichererbsennudeln",364,22,51,6);
+    public static Zutat KRÄUTERBUTTERBROT = new Zutat("Kräuterbutterbrot", 325, 7.7, 42.6, 13.2);
     public static Zutat KINDER_BUENO = new("Kinder Bueno", 572, 8.6, 49.5, 37.3);
     
     public static Zutat LACHS = new Zutat("Lachs",180,19.9,0,11.2);
@@ -42,6 +45,7 @@ public static class Zutaten
     public static Zutat ÖL = new Zutat("Öl",884,0,0,100);
 
     public static Zutat PARMESAN = new("Parmesan",431,38,4,29);
+    public static Zutat PINIENKERNE = new("Pinienkerne", 613, 27, 12, 49);
     
     public static Zutat REIS = new Zutat("Reis",347, 7.3, 77.3, 0.9);
     public static Zutat RINDFLEISCH = new Zutat("Rindfleisch",150,19,0,8);
