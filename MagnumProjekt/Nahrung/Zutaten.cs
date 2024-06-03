@@ -25,6 +25,7 @@ public static class Zutaten
     
     public static Zutat HAFERFLOCKEN  = new Zutat("Haferflocken",339,12.5,55,6.5);
     public static Zutat HÄHNCHENBRUST  = new Zutat("Hähnchenbrust",102,24,0,0.7);
+    public static Zutat HIMBEEREN = new Zutat("Himbeeren", 52, 1, 7, 0);
     public static Zutat HOISSIN_SOSSE = new("Hoissinsoße",227, 2, 51, 1.6);
     
     public static Zutat KARTOFFELCHIPS = new("Kartoffelchips",528, 5.6, 49, 33);
@@ -55,6 +56,7 @@ public static class Zutaten
     public static Zutat SCHMAND = new("Schmand",236,2.4,2.7,24);
     public static Zutat SCHWEINEFILET = new("Schweinefilet", 143, 26, 0, 4);
     public static Zutat SOJASOSSE = new Zutat("Sojasoße",82, 10, 5.8, 0);
+    public static Zutat SONNENBLUMENKERNE = new Zutat("Sonnenblumenkerne", 491, 26, 35, 26);
     public static Zutat SPECK = new("Speck",312, 15, 0, 28);
     public static Zutat TOAST = new("Toast",246,10,42,3);
     public static Zutat TOFU = new Zutat("Tofu",124, 15, 2, 7);
