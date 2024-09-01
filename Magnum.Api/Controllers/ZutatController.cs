@@ -7,9 +7,9 @@ namespace Magnum.Api.Controllers
     [ApiController]
     public class ZutatController : Controller
     {
-        private readonly IZutatenRepository _zutatenRepository;
+        private readonly IZutatRepository _zutatenRepository;
 
-        public ZutatController(IZutatenRepository zutatenRepository)
+        public ZutatController(IZutatRepository zutatenRepository)
         {
             _zutatenRepository = zutatenRepository;
         }
@@ -18,7 +18,7 @@ namespace Magnum.Api.Controllers
         [HttpGet]
         public IActionResult GetZutaten()
         {        
-            return Ok(_zutatenRepository.GetAllZutatenFürNutzer(Guid.Empty));
+            return Ok(_zutatenRepository.GetZutatDataFürNutzer(Guid.Empty));
         }
     }
 }

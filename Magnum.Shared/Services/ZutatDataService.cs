@@ -1,20 +1,21 @@
 ﻿using Magnum.Model.Nahrung;
+using Magnum.Model.Nahrung.Data;
 using System.Text.Json;
 
-namespace MagnumApp.Client.Services
+namespace Magnum.Shared.Services
 {
-    public class ZutatenDataService : IZutatenDataService
+    public class ZutatDataService : IZutatDataService
     {
         private readonly HttpClient _httpClient = default!;
 
-        public ZutatenDataService(HttpClient httpClient)
+        public ZutatDataService(HttpClient httpClient)
         {
             _httpClient = httpClient;
         }
 
-        public async Task<IEnumerable<Zutat>> GetZutaten()
+        public async Task<IEnumerable<ZutatData>> GetZutaten()
         {
-            return await JsonSerializer.DeserializeAsync<IEnumerable<Zutat>>(
+            return await JsonSerializer.DeserializeAsync<IEnumerable<ZutatData>>(
                  await _httpClient.GetStreamAsync($"api/zutat"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
     }

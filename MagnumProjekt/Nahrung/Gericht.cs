@@ -24,7 +24,7 @@ public struct Gericht : INahrungsmittel
     {
         get { return _fett * _faktor; }
     }
-    public string Name { get; private set; } = "";
+    public string Name { get; private set; } = "Gericht";
     public Dictionary<string, Beigabe> Zutaten { get; } = new();
 
     private double _faktor = 1.0;

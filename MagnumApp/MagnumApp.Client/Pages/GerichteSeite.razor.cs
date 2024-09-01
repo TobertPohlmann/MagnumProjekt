@@ -1,5 +1,5 @@
 ﻿using Magnum.Model.Nahrung;
-using MagnumApp.Client.Services;
+using Magnum.Shared;
 using Microsoft.AspNetCore.Components;
 
 namespace MagnumApp.Client.Pages
@@ -7,15 +7,14 @@ namespace MagnumApp.Client.Pages
     public partial class GerichteSeite
     {
         [Inject]
-        public IGerichtDataService? GerichtDataService { get; set; }
+        public ApplicationState? ApplicationState { get; set; }
         public List<Gericht>? Gerichte { get; set; } = default!;
+
+        public int Länge { get; set; } = -1;
 
         protected override async Task OnInitializedAsync()
         {
-            //Gerichte = (await GerichtDataService.GetGerichte()).ToList();
-            Gerichte = new List<Gericht>();
-            Gerichte.Add(new Gericht("Testgericht"));
-            Gerichte.Add(new Gericht("Noch ein Testgericht"));
+            Gerichte = await ApplicationState.GetGerichte();
         }
     }
 }

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MagnumApp.Client",
   "resources": {
-    "hash": "sha256-dBZB02Qq2FgOIvLmnAXgCqKOAUK7alHJPIo41vlYyzM=",
+    "hash": "sha256-5HnWJhQbSaNSECCz1S3aM4E4Ie1k5/fnj5+mTohnOgM=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.lrskj1ajrz.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -212,14 +212,14 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "Magnum.Model.wasm": "sha256-EV7jxdOHjRz23/Jj+rZ3/aAsOHyyXFiH5k/F9WP7u3k=",
-      "Magnum.Shared.wasm": "sha256-+3Xr5Fa6M4S0E4x24NI283wPUSxOlZaslCLT+ap89Jw=",
-      "MagnumApp.Client.wasm": "sha256-pg7EYQAhjaz5JUSdETRNRdxkEnwuOvTqbcQ6tEiwjbk="
+      "Magnum.Model.wasm": "sha256-T0sr1+3mYnIxsuNemw8w2lIfWZm3sBK15Pl8hMmdGWE=",
+      "Magnum.Shared.wasm": "sha256-1waPsura6dI5q45fxSb7PN22vh5CYHMyyjVEwK+an1U=",
+      "MagnumApp.Client.wasm": "sha256-/YiSoXjYrLnzB5w58/ZSdkKno1F/uadcNZEqf2e/2ok="
     },
     "pdb": {
-      "Magnum.Shared.pdb": "sha256-hjM5ZfVmCkDXx+3NLzDzti9u/6mJ63/7nGHRX1AfEws=",
-      "Magnum.Model.pdb": "sha256-wwxCriRafLujBnIPWKtpufDbmY7VngTOumhzDZAzMZo=",
-      "MagnumApp.Client.pdb": "sha256-se7Av3PI+HWPkYg0h2yzUaj0ZTU9l500gk9Ss5hpkBU="
+      "Magnum.Shared.pdb": "sha256-yaoJK09J4HWNla2BbQb9/LLoEU/onjL8Dxgmjhh19ZM=",
+      "Magnum.Model.pdb": "sha256-VgOzqZtdati0rHF+6Z4p5mtf269RaiGdgsZtYev5FAA=",
+      "MagnumApp.Client.pdb": "sha256-UjS1efIHSA7Mp0MuSbODFLYCl/BO/QKu0aMqtzAQHoc="
     }
   },
   "cacheBootResources": true,

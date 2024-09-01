@@ -17,8 +17,8 @@ namespace Magnum.Api.Controllers
         // GET: api/<controller>
         [HttpGet]
         public IActionResult GetGerichte()
-        {        
-            return Ok(_gerichtRepository.GetAllGerichteFürNutzer(Guid.Empty));
+        {
+            return Ok(_gerichtRepository.GetAllGerichtDataFürNutzer(Guid.Empty));
         }
     }
 }

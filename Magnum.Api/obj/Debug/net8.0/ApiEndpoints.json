@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "Magnum.Api.Controllers.BeigabeController",
+    "Method": "GetBeigaben",
+    "RelativePath": "api/Beigabe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Magnum.Api.Controllers.GerichtController",
     "Method": "GetGerichte",
     "RelativePath": "api/Gericht",

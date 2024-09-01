@@ -16,9 +16,14 @@ builder.Services.AddDbContext<GerichtDbContext>(options => {
 
 // Add services to the container.
 builder.Services.AddScoped<IGerichtRepository, GerichtRepository>();
-builder.Services.AddScoped<IZutatenRepository, ZutatenRepository>();
+builder.Services.AddScoped<IZutatRepository, ZutatRepository>();
+builder.Services.AddScoped<IBeigabeRepository, BeigabeRepository>();
 
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Open", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -39,6 +44,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCors("Open");
 
 app.MapControllers();
 

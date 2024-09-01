@@ -1,9 +1,10 @@
 ﻿using Magnum.Model.Nahrung;
+using Magnum.Model.Nahrung.Data;
 
-namespace MagnumApp.Client.Services
+namespace Magnum.Shared.Services
 {
     public interface IGerichtDataService
     {
-        Task<IEnumerable<Gericht>> GetGerichte();
+        Task<IEnumerable<GerichtData>> GetGerichte();
     }
 }

@@ -1,4 +1,5 @@
 using MagnumApp.Components;
+using Magnum.Shared.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 

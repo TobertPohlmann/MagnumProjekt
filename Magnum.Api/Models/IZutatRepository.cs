@@ -3,8 +3,8 @@ using Magnum.Model.Nahrung.Data;
 
 namespace Magnum.Api.Models
 {
-    public interface IZutatenRepository
+    public interface IZutatRepository
     {
-        IEnumerable<Zutat> GetAllZutatenFürNutzer(Guid guid);
+        IEnumerable<ZutatData> GetZutatDataFürNutzer(Guid guid);
     }
 }

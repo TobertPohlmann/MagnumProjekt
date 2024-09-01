@@ -1,6 +1,5 @@
 ﻿using Magnum.Model.Nahrung;
 using Magnum.Model.Nahrung.Data;
-using Magnum.Api.Models.Data;
 
 namespace Magnum.Api.Models
 {
@@ -14,17 +13,9 @@ namespace Magnum.Api.Models
             _dbContext = dbContext;
         }
 
-        public IEnumerable<Gericht> GetAllGerichteFürNutzer(Guid userId)
+        public IEnumerable<GerichtData> GetAllGerichtDataFürNutzer(Guid userId)
         {
-            var alleZutaten = _dbContext.ZutatData;
-            var alleBeigaben = _dbContext.ZutatenBeigaben;
-
-            var alleGerichte = new List<Gericht>();
-            foreach (GerichtData data in _dbContext.GerichtData.Where(x => x.UserId == userId)) 
-            {
-                alleGerichte.Add(NahrungsDataConverter.ErzeugeGerichtAusDaten(data, alleZutaten, alleBeigaben));                            
-            }
-            return alleGerichte;
+            return _dbContext.GerichtData;
         }
     }
 }

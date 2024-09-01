@@ -1,4 +1,3 @@
-using MagnumApp.Client.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.Extensions.DependencyInjection;
@@ -33,14 +32,6 @@ public static class Extensions
         });
 
         return builder;
-    }
-
-    public static IServiceCollection AddCommonDependencies(this IServiceCollection services)
-    {
-        services.AddHttpClient<IGerichtDataService, GerichtDataService>(client => client.BaseAddress = new Uri("http://localhost:5188"));
-        services.AddHttpClient<IZutatenDataService, ZutatenDataService>(client => client.BaseAddress = new Uri("http://localhost:5188"));
-
-        return services;
     }
 
     public static IHostApplicationBuilder ConfigureOpenTelemetry(this IHostApplicationBuilder builder)

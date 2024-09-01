@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VyaWNodGVTZWl0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Daten/Programmierung/MagnumProjekt/MagnumApp/MagnumApp.Client/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Daten/Programmierung/MagnumProjekt/MagnumApp/MagnumApp.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
