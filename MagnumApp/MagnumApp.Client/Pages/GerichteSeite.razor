@@ -1,0 +1,25 @@
+﻿@page "/gerichte"
+
+<h3>Gerichte</h3>
+
+@if (Gerichte == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="tb">
+        <tr>
+            <em>Gerichte</em>
+        </tr>
+
+        @foreach (var gericht in Gerichte)
+        {
+            <tr>
+                <td>
+                    @gericht.Name
+                </td>
+            </tr>
+        }
+    </table>
+}

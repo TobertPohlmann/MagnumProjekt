@@ -1,3 +1,4 @@
+using Magnum.Model.Nahrung;
 using MagnumProjekt.Nahrung;
 
 namespace MagnumProjekt.Kalender;

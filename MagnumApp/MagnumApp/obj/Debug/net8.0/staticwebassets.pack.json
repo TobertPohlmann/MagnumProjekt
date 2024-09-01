@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MagnumApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MagnumApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MagnumApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MagnumApp.props",
+      "PackagePath": "build\\MagnumApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MagnumApp.props",
+      "PackagePath": "buildMultiTargeting\\MagnumApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MagnumApp.props",
+      "PackagePath": "buildTransitive\\MagnumApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

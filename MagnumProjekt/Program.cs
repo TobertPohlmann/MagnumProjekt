@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using Magnum.Model.Nahrung;
 using MagnumProjekt.Kalender;
-using MagnumProjekt.Nahrung;
 
 Kalender kalender = new();
 

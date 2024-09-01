@@ -1,4 +1,6 @@
-namespace MagnumProjekt.Nahrung;
+using MagnumProjekt.Nahrung;
+
+namespace Magnum.Model.Nahrung;
 
 public struct Gericht : INahrungsmittel
 {
@@ -6,23 +8,27 @@ public struct Gericht : INahrungsmittel
     private double _eiweiß;
     private double _kohlenhydrat;
     private double _fett;
-    public double Brennwert {
+    public double Brennwert
+    {
         get { return _brennwert * _faktor; }
     }
-    public double Eiweiß {
+    public double Eiweiß
+    {
         get { return _eiweiß * _faktor; }
     }
-    public double Kohlenhydrat {
+    public double Kohlenhydrat
+    {
         get { return _kohlenhydrat * _faktor; }
     }
-    public double Fett {
+    public double Fett
+    {
         get { return _fett * _faktor; }
     }
     public string Name { get; private set; } = "";
-    private Dictionary<string,Beigabe> Zutaten { get; } = new();
+    public Dictionary<string, Beigabe> Zutaten { get; } = new();
 
     private double _faktor = 1.0;
-    
+
     public Gericht(string name, params Zutat[] zutaten)
     {
         Name = name;
@@ -44,8 +50,8 @@ public struct Gericht : INahrungsmittel
             foreach (var inhalt in gericht.Zutaten)
             {
                 dieseZutat = inhalt.Value.Zutat;
-                menge = (int)(inhalt.Value.Menge*gericht._faktor);
-                neuesGericht.AddZutat(menge,dieseZutat);
+                menge = (int)(inhalt.Value.Menge * gericht._faktor);
+                neuesGericht.AddZutat(menge, dieseZutat);
             }
         }
         return neuesGericht.Namens(neuerName.Substring(0, neuerName.Length - 3));
@@ -56,7 +62,7 @@ public struct Gericht : INahrungsmittel
         return AusKombinationVon(new[] { this });
     }
 
-    public static Gericht operator +(Gericht a, Gericht b) => Gericht.AusKombinationVon(a,b);
+    public static Gericht operator +(Gericht a, Gericht b) => AusKombinationVon(a, b);
 
     public static Gericht operator *(double faktor, Gericht a)
     {
@@ -69,15 +75,15 @@ public struct Gericht : INahrungsmittel
     {
         Gericht b = a.Kopie();
         b.Name += " mit " + zutat.Name;
-        b.AddZutat(zutat/b._faktor);
+        b.AddZutat(zutat / b._faktor);
         return b;
     }
-    
+
     public static Gericht operator +(Zutat zutat, Gericht a)
     {
         return a + zutat;
     }
-    
+
     public Gericht Namens(string name)
     {
         Name = name;
@@ -88,31 +94,31 @@ public struct Gericht : INahrungsmittel
     {
         if (!Zutaten.ContainsKey(zutat.Name))
         {
-            Zutaten[zutat.Name] = new Beigabe(zutat,menge);
+            Zutaten[zutat.Name] = new Beigabe(zutat, menge);
         }
         else
         {
             int vorigeMenge = Zutaten[zutat.Name].Menge;
-            Zutaten[zutat.Name] = new Beigabe(zutat,menge+vorigeMenge);
+            Zutaten[zutat.Name] = new Beigabe(zutat, menge + vorigeMenge);
         }
         BerechneNährwert();
     }
 
     public void AddZutat(Zutat zutat)
     {
-        AddZutat(100,zutat);
+        AddZutat(100, zutat);
     }
 
     public double GetEiweißAnteil()
     {
         return Eiweiß / (Eiweiß + Kohlenhydrat + Fett);
     }
-    
+
     public double GetKohlenhydratAnteil()
     {
         return Kohlenhydrat / (Eiweiß + Kohlenhydrat + Fett);
     }
-    
+
     public double GetFettAnteil()
     {
         return Fett / (Eiweiß + Kohlenhydrat + Fett);
@@ -132,11 +138,11 @@ public struct Gericht : INahrungsmittel
             _fett += beigabe.Menge / 100.0 * beigabe.Zutat.Fett;
         }
     }
-    
+
     public void PrintNährwerte(double faktor)
     {
-        Console.WriteLine("\n"+faktor+"x "+Name+" -----------");
-        NährwertSchreiber.PrintNährwerte(faktor*Brennwert,faktor*Eiweiß,faktor*Kohlenhydrat,faktor*Fett);
+        Console.WriteLine("\n" + faktor + "x " + Name + " -----------");
+        NährwertSchreiber.PrintNährwerte(faktor * Brennwert, faktor * Eiweiß, faktor * Kohlenhydrat, faktor * Fett);
     }
 }
 

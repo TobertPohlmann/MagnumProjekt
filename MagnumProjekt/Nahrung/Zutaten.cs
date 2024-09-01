@@ -1,3 +1,5 @@
+using Magnum.Model.Nahrung;
+
 namespace MagnumProjekt.Nahrung;
 
 public static class Zutaten

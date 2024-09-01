@@ -1,6 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnumProjekt", "MagnumProjekt\MagnumProjekt.csproj", "{7A1BDA37-B3E1-4334-A315-069BB6BDC567}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magnum.Model", "MagnumProjekt\Magnum.Model.csproj", "{7A1BDA37-B3E1-4334-A315-069BB6BDC567}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagnumApp.Client", "MagnumApp\MagnumApp.Client\MagnumApp.Client.csproj", "{5CC45953-4921-418B-8EC1-10D23E99104F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagnumProjekt.ServiceDefaults", "MagnumProjekt.ServiceDefaults\MagnumProjekt.ServiceDefaults.csproj", "{C7A57991-4A25-4589-BE79-7E0213FD5AB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magnum.Api", "Magnum.Api\Magnum.Api.csproj", "{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagnumApp", "MagnumApp\MagnumApp\MagnumApp.csproj", "{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +23,27 @@ Global
 		{7A1BDA37-B3E1-4334-A315-069BB6BDC567}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A1BDA37-B3E1-4334-A315-069BB6BDC567}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A1BDA37-B3E1-4334-A315-069BB6BDC567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC45953-4921-418B-8EC1-10D23E99104F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC45953-4921-418B-8EC1-10D23E99104F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC45953-4921-418B-8EC1-10D23E99104F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC45953-4921-418B-8EC1-10D23E99104F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A57991-4A25-4589-BE79-7E0213FD5AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A57991-4A25-4589-BE79-7E0213FD5AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A57991-4A25-4589-BE79-7E0213FD5AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A57991-4A25-4589-BE79-7E0213FD5AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9931D52-8919-4775-A8BE-0B219CEF8D80}
 	EndGlobalSection
 EndGlobal
