@@ -61,8 +61,6 @@ D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Polly
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Polly.Extensions.dll
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Polly.RateLimiting.dll
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\MagnumApp.Client.dll
-D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\MagnumProjekt.ServiceDefaults.dll
-D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\MagnumProjekt.ServiceDefaults.pdb
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\MagnumApp.Client.pdb
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\obj\Debug\net8.0\MagnumApp.csproj.AssemblyReference.cache
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\obj\Debug\net8.0\MagnumApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -93,3 +91,5 @@ D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Magnu
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Magnum.Model.exe
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Magnum.Model.dll
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Magnum.Model.pdb
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Magnum.ServiceDefaults.dll
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Magnum.ServiceDefaults.pdb

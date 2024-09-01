@@ -210,7 +210,7 @@
               "RelativeDocumentMoniker": "MagnumApp\\MagnumApp\\Components\\_Imports.razor",
               "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\Components\\_Imports.razor",
               "RelativeToolTip": "MagnumApp\\MagnumApp\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-01T16:29:19.885Z",
               "EditorCaption": ""
@@ -249,7 +249,8 @@
               "RelativeToolTip": "MagnumProjekt.ServiceDefaults\\Extensions.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAxwB4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T16:05:23.539Z"
+              "WhenOpened": "2024-09-01T16:05:23.539Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -261,7 +262,8 @@
               "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T15:48:41.883Z"
+              "WhenOpened": "2024-09-01T15:48:41.883Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -273,7 +275,8 @@
               "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Pages\\GerichteSeite.razor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T12:40:05.393Z"
+              "WhenOpened": "2024-09-01T12:40:05.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -285,7 +288,8 @@
               "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Pages\\GerichteSeite.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T12:39:52.498Z"
+              "WhenOpened": "2024-09-01T12:39:52.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -297,7 +301,8 @@
               "RelativeToolTip": "Magnum.Api\\Magnum.Api.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-01T12:10:35.102Z"
+              "WhenOpened": "2024-09-01T12:10:35.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -309,7 +314,8 @@
               "RelativeToolTip": "Magnum.Api\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T12:10:28.469Z"
+              "WhenOpened": "2024-09-01T12:10:28.469Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -321,7 +327,8 @@
               "RelativeToolTip": "Magnum.Api\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-01T12:10:22.749Z"
+              "WhenOpened": "2024-09-01T12:10:22.749Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -333,7 +340,8 @@
               "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Services\\ZutatenDataService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T11:57:51.084Z"
+              "WhenOpened": "2024-09-01T11:57:51.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -345,7 +353,8 @@
               "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Services\\IZutatenDataService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T11:57:04.227Z"
+              "WhenOpened": "2024-09-01T11:57:04.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -357,7 +366,8 @@
               "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Services\\GerichtDataService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T11:49:14.03Z"
+              "WhenOpened": "2024-09-01T11:49:14.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -367,7 +377,8 @@
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.targets",
               "ViewState": "AgIAANAEAAAAAAAAAAAawOQEAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-09-01T11:48:44.573Z"
+              "WhenOpened": "2024-09-01T11:48:44.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -379,7 +390,8 @@
               "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-01T11:45:28.808Z"
+              "WhenOpened": "2024-09-01T11:45:28.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -391,7 +403,8 @@
               "RelativeToolTip": "MagnumProjekt\\Magnum.Model.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-01T11:38:34.462Z"
+              "WhenOpened": "2024-09-01T11:38:34.462Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -402,7 +415,8 @@
               "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Magnum.Api.csproj",
               "RelativeToolTip": "Magnum.Api\\Magnum.Api.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-01T11:38:26.387Z"
+              "WhenOpened": "2024-09-01T11:38:26.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -413,7 +427,8 @@
               "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj",
               "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-01T11:38:24.699Z"
+              "WhenOpened": "2024-09-01T11:38:24.699Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -425,7 +440,8 @@
               "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Services\\IGerichtDataService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T11:33:40.412Z"
+              "WhenOpened": "2024-09-01T11:33:40.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -437,7 +453,8 @@
               "RelativeToolTip": "Magnum.Api\\Controllers\\ZutatController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T11:14:52.502Z"
+              "WhenOpened": "2024-09-01T11:14:52.502Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -449,7 +466,8 @@
               "RelativeToolTip": "Magnum.Api\\Controllers\\GerichtController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T11:06:33.811Z"
+              "WhenOpened": "2024-09-01T11:06:33.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -461,7 +479,8 @@
               "RelativeToolTip": "Magnum.Api\\Models\\Data\\NahrungsDataConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:53:22.495Z"
+              "WhenOpened": "2024-09-01T10:53:22.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -473,7 +492,8 @@
               "RelativeToolTip": "MagnumProjekt\\Nahrung\\Gerichte.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:38:45.381Z"
+              "WhenOpened": "2024-09-01T10:38:45.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -485,7 +505,8 @@
               "RelativeToolTip": "MagnumProjekt\\Nahrung\\Zutat.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:38:16.726Z"
+              "WhenOpened": "2024-09-01T10:38:16.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -497,7 +518,8 @@
               "RelativeToolTip": "Magnum.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T22:54:10.736Z"
+              "WhenOpened": "2024-08-31T22:54:10.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -507,9 +529,10 @@
               "RelativeDocumentMoniker": "Magnum.Api\\Models\\NahrungDataExtraktor.cs",
               "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\NahrungDataExtraktor.cs",
               "RelativeToolTip": "Magnum.Api\\Models\\NahrungDataExtraktor.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA5wAgAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T21:55:20.938Z"
+              "WhenOpened": "2024-08-31T21:55:20.938Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -521,7 +544,8 @@
               "RelativeToolTip": "MagnumProjekt\\TabExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T21:37:21.802Z"
+              "WhenOpened": "2024-08-31T21:37:21.802Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -533,7 +557,8 @@
               "RelativeToolTip": "Magnum.Api\\Models\\Data\\BeigabeData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T19:25:04.934Z"
+              "WhenOpened": "2024-08-31T19:25:04.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -545,7 +570,8 @@
               "RelativeToolTip": "Magnum.Api\\Models\\Data\\ZutatData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T19:25:04.407Z"
+              "WhenOpened": "2024-08-31T19:25:04.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -557,7 +583,8 @@
               "RelativeToolTip": "Magnum.Api\\Models\\Data\\GerichtData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T19:25:02.007Z"
+              "WhenOpened": "2024-08-31T19:25:02.007Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -569,7 +596,8 @@
               "RelativeToolTip": "Magnum.Api\\Models\\GerichtDbContext.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAnwDcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T18:56:19.336Z"
+              "WhenOpened": "2024-08-31T18:56:19.336Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -581,7 +609,8 @@
               "RelativeToolTip": "Magnum.Api\\Models\\GerichtRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T18:47:35.129Z"
+              "WhenOpened": "2024-08-31T18:47:35.129Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -593,7 +622,8 @@
               "RelativeToolTip": "Magnum.Api\\Models\\ZutatenRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T18:47:09.199Z"
+              "WhenOpened": "2024-08-31T18:47:09.199Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -605,7 +635,8 @@
               "RelativeToolTip": "Magnum.Api\\Models\\IGerichtRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T18:33:41.279Z"
+              "WhenOpened": "2024-08-31T18:33:41.279Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -617,7 +648,8 @@
               "RelativeToolTip": "Magnum.Api\\Models\\IZutatenRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T18:31:55.909Z"
+              "WhenOpened": "2024-08-31T18:31:55.909Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -629,7 +661,8 @@
               "RelativeToolTip": "MagnumProjekt\\Nahrung\\INahrungsmittel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T17:11:54.651Z"
+              "WhenOpened": "2024-08-31T17:11:54.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -641,7 +674,8 @@
               "RelativeToolTip": "MagnumProjekt\\Nahrung\\Gericht.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T17:11:48.612Z"
+              "WhenOpened": "2024-08-31T17:11:48.612Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -653,7 +687,8 @@
               "RelativeToolTip": "MagnumProjekt.AppHost\\obj\\Debug\\net8.0\\Aspire\\references\\Magnum_Api.ProjectMetadata.g.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T17:08:06.741Z"
+              "WhenOpened": "2024-08-31T17:08:06.741Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -665,7 +700,8 @@
               "RelativeToolTip": "Magnum.Api\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-31T17:07:19.5Z"
+              "WhenOpened": "2024-08-31T17:07:19.5Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -677,7 +713,8 @@
               "RelativeToolTip": "Magnum.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-31T17:07:16.219Z"
+              "WhenOpened": "2024-08-31T17:07:16.219Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -689,7 +726,8 @@
               "RelativeToolTip": "Magnum.Api\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T17:06:43.484Z"
+              "WhenOpened": "2024-08-31T17:06:43.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -701,7 +739,8 @@
               "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T17:03:00.508Z"
+              "WhenOpened": "2024-08-31T17:03:00.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -713,7 +752,8 @@
               "RelativeToolTip": "MagnumProjekt\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T18:40:45.564Z"
+              "WhenOpened": "2024-08-28T18:40:45.564Z",
+              "EditorCaption": ""
             }
           ]
         }

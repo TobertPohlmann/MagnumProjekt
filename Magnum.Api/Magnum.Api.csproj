@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MagnumProjekt.ServiceDefaults\MagnumProjekt.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\MagnumProjekt.ServiceDefaults\Magnum.ServiceDefaults.csproj" />
     <ProjectReference Include="..\MagnumProjekt\Magnum.Model.csproj" />
   </ItemGroup>
 

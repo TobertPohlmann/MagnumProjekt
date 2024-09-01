@@ -5902,9 +5902,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.AppHost\\MagnumProjekt.AppHost.csproj",
-      "projectName": "MagnumProjekt.AppHost",
-      "projectPath": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.AppHost\\MagnumProjekt.AppHost.csproj",
+      "projectUniqueName": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.AppHost\\Magnum.AppHost.csproj",
+      "projectName": "Magnum.AppHost",
+      "projectPath": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.AppHost\\Magnum.AppHost.csproj",
       "packagesPath": "C:\\Users\\Tobi\\.nuget\\packages\\",
       "outputPath": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.AppHost\\obj\\",
       "projectStyle": "PackageReference",

@@ -5,8 +5,8 @@ namespace Projects;
 [global::System.CodeDom.Compiler.GeneratedCode("Aspire.Hosting", null)]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage(Justification = "Generated code.")]
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
-public class MagnumProjekt_AppHost
+public class Magnum_AppHost
 {
-    private MagnumProjekt_AppHost() { }
+    private Magnum_AppHost() { }
     public static string ProjectPath => """D:\Daten\Programmierung\MagnumProjekt\MagnumProjekt.AppHost""";
 }

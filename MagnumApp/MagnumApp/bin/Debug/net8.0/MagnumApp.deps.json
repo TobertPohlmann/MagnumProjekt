@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "MagnumApp/1.0.0": {
         "dependencies": {
+          "Magnum.ServiceDefaults": "1.0.0",
           "MagnumApp.Client": "1.0.0",
-          "MagnumProjekt.ServiceDefaults": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "8.0.8"
         },
         "runtime": {
@@ -641,20 +641,7 @@
           }
         }
       },
-      "MagnumApp.Client/1.0.0": {
-        "dependencies": {
-          "Magnum.Model": "1.0.0",
-          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.8",
-          "Microsoft.Extensions.Http": "8.0.0"
-        },
-        "runtime": {
-          "MagnumApp.Client.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "MagnumProjekt.ServiceDefaults/1.0.0": {
+      "Magnum.ServiceDefaults/1.0.0": {
         "dependencies": {
           "MagnumApp.Client": "1.0.0",
           "Microsoft.Extensions.Http.Resilience": "8.8.0",
@@ -666,7 +653,20 @@
           "OpenTelemetry.Instrumentation.Runtime": "1.9.0"
         },
         "runtime": {
-          "MagnumProjekt.ServiceDefaults.dll": {
+          "Magnum.ServiceDefaults.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MagnumApp.Client/1.0.0": {
+        "dependencies": {
+          "Magnum.Model": "1.0.0",
+          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.8",
+          "Microsoft.Extensions.Http": "8.0.0"
+        },
+        "runtime": {
+          "MagnumApp.Client.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1140,12 +1140,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "MagnumApp.Client/1.0.0": {
+    "Magnum.ServiceDefaults/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "MagnumProjekt.ServiceDefaults/1.0.0": {
+    "MagnumApp.Client/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -42,8 +42,6 @@ D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\bin\Debug\net8.0\Polly.RateLimi
 D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\bin\Debug\net8.0\MagnumProjekt.ServiceDefaults.dll
-D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\bin\Debug\net8.0\MagnumProjekt.ServiceDefaults.pdb
 D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\obj\Debug\net8.0\Magnum.Api.csproj.AssemblyReference.cache
 D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\obj\Debug\net8.0\Magnum.Api.GeneratedMSBuildEditorConfig.editorconfig
 D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\obj\Debug\net8.0\Magnum.Api.AssemblyInfoInputs.cache
@@ -187,3 +185,5 @@ D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\bin\Debug\net8.0\Microsoft.JSIn
 D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
 D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\bin\Debug\net8.0\MagnumApp.Client.dll
 D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\bin\Debug\net8.0\MagnumApp.Client.pdb
+D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\bin\Debug\net8.0\Magnum.ServiceDefaults.dll
+D:\Daten\Programmierung\MagnumProjekt\Magnum.Api\bin\Debug\net8.0\Magnum.ServiceDefaults.pdb

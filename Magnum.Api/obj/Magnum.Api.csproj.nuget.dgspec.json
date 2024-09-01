@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.ServiceDefaults\\MagnumProjekt.ServiceDefaults.csproj": {
-                "projectPath": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.ServiceDefaults\\MagnumProjekt.ServiceDefaults.csproj"
+              "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.ServiceDefaults\\Magnum.ServiceDefaults.csproj": {
+                "projectPath": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.ServiceDefaults\\Magnum.ServiceDefaults.csproj"
               },
               "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt\\Magnum.Model.csproj": {
                 "projectPath": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt\\Magnum.Model.csproj"
@@ -201,12 +201,12 @@
         }
       }
     },
-    "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.ServiceDefaults\\MagnumProjekt.ServiceDefaults.csproj": {
+    "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.ServiceDefaults\\Magnum.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.ServiceDefaults\\MagnumProjekt.ServiceDefaults.csproj",
-        "projectName": "MagnumProjekt.ServiceDefaults",
-        "projectPath": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.ServiceDefaults\\MagnumProjekt.ServiceDefaults.csproj",
+        "projectUniqueName": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.ServiceDefaults\\Magnum.ServiceDefaults.csproj",
+        "projectName": "Magnum.ServiceDefaults",
+        "projectPath": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.ServiceDefaults\\Magnum.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\Tobi\\.nuget\\packages\\",
         "outputPath": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
