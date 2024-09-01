@@ -1,5 +1,4 @@
 using MagnumApp.Components;
-using MagnumApp.Client.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,8 +10,7 @@ builder.Services.AddRazorComponents()
 
 
 //Client dependencies
-builder.Services.AddHttpClient<IGerichtDataService, GerichtDataService>(client => client.BaseAddress = new Uri("http://localhost:5188"));
-builder.Services.AddHttpClient<IZutatenDataService, ZutatenDataService>(client => client.BaseAddress = new Uri("http://localhost:5188"));
+builder.Services.AddCommonDependencies();
 
 var app = builder.Build();
 

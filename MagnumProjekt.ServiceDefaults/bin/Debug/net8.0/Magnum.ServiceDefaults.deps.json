@@ -638,9 +638,23 @@
           }
         }
       },
+      "Magnum.Shared/1.0.0": {
+        "dependencies": {
+          "Magnum.Model": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.Extensions.Http": "8.0.0"
+        },
+        "runtime": {
+          "Magnum.Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "MagnumApp.Client/1.0.0": {
         "dependencies": {
           "Magnum.Model": "1.0.0",
+          "Magnum.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.8",
           "Microsoft.Extensions.Http": "8.0.0"
         },
@@ -1108,6 +1122,11 @@
       "hashPath": "system.threading.ratelimiting.8.0.0.nupkg.sha512"
     },
     "Magnum.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Magnum.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

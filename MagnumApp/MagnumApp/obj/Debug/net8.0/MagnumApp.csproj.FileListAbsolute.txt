@@ -93,3 +93,5 @@ D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Magnu
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Magnum.Model.pdb
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Magnum.ServiceDefaults.dll
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Magnum.ServiceDefaults.pdb
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Magnum.Shared.dll
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp\bin\Debug\net8.0\Magnum.Shared.pdb

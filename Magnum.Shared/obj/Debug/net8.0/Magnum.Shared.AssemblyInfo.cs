@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Magnum.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a59f6633fdb01ecae4e958f008c5aa79dca7d390")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b36bfa63cf7cb050c7ae66aa93e46ff138b619da")]
 [assembly: System.Reflection.AssemblyProductAttribute("Magnum.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Magnum.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

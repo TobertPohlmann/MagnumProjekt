@@ -1059,3 +1059,12 @@ D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\obj\Debug\net8.
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\obj\Debug\net8.0\compressed\2htaeux0y3.gz
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\obj\Debug\net8.0\compressed\s3f5y2jkov.gz
 D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\obj\Debug\net8.0\compressed\fox5tyd4xv.gz
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\bin\Debug\net8.0\wwwroot\_framework\Magnum.Shared.pdb
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\bin\Debug\net8.0\wwwroot\_framework\Magnum.Shared.wasm
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\bin\Debug\net8.0\wwwroot\_framework\Magnum.Shared.wasm.gz
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\bin\Debug\net8.0\wwwroot\_framework\Magnum.Shared.pdb.gz
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\bin\Debug\net8.0\Magnum.Shared.dll
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\bin\Debug\net8.0\Magnum.Shared.pdb
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\obj\Debug\net8.0\webcil\Magnum.Shared.wasm
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\obj\Debug\net8.0\compressed\h5ocqjg3zx.gz
+D:\Daten\Programmierung\MagnumProjekt\MagnumApp\MagnumApp.Client\obj\Debug\net8.0\compressed\kjdido111z.gz

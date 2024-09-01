@@ -1191,11 +1191,27 @@
           "bin/placeholder/Magnum.Model.dll": {}
         }
       },
+      "Magnum.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Magnum.Model": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.Extensions.Http": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Magnum.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Magnum.Shared.dll": {}
+        }
+      },
       "MagnumApp.Client/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Magnum.Model": "1.0.0",
+          "Magnum.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.8",
           "Microsoft.Extensions.Http": "8.0.0"
         },
@@ -2890,6 +2906,11 @@
       "type": "project",
       "path": "../MagnumProjekt/Magnum.Model.csproj",
       "msbuildProject": "../MagnumProjekt/Magnum.Model.csproj"
+    },
+    "Magnum.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Magnum.Shared/Magnum.Shared.csproj",
+      "msbuildProject": "../Magnum.Shared/Magnum.Shared.csproj"
     },
     "MagnumApp.Client/1.0.0": {
       "type": "project",

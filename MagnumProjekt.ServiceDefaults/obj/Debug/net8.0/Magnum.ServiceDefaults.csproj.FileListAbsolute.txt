@@ -20,3 +20,5 @@ D:\Daten\Programmierung\MagnumProjekt\MagnumProjekt.ServiceDefaults\obj\Debug\ne
 D:\Daten\Programmierung\MagnumProjekt\MagnumProjekt.ServiceDefaults\obj\Debug\net8.0\refint\Magnum.ServiceDefaults.dll
 D:\Daten\Programmierung\MagnumProjekt\MagnumProjekt.ServiceDefaults\obj\Debug\net8.0\Magnum.ServiceDefaults.pdb
 D:\Daten\Programmierung\MagnumProjekt\MagnumProjekt.ServiceDefaults\obj\Debug\net8.0\ref\Magnum.ServiceDefaults.dll
+D:\Daten\Programmierung\MagnumProjekt\MagnumProjekt.ServiceDefaults\bin\Debug\net8.0\Magnum.Shared.dll
+D:\Daten\Programmierung\MagnumProjekt\MagnumProjekt.ServiceDefaults\bin\Debug\net8.0\Magnum.Shared.pdb
