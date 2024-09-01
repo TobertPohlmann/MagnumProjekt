@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magnum.Api", "Magnum.Api\Ma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagnumApp", "MagnumApp\MagnumApp\MagnumApp.csproj", "{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagnumProjekt.AppHost", "MagnumProjekt.AppHost\MagnumProjekt.AppHost.csproj", "{00B165A8-2409-4E4E-9511-0CBB6526712C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B165A8-2409-4E4E-9511-0CBB6526712C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B165A8-2409-4E4E-9511-0CBB6526712C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B165A8-2409-4E4E-9511-0CBB6526712C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B165A8-2409-4E4E-9511-0CBB6526712C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

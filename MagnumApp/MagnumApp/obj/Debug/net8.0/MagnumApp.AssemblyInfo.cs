@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MagnumApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a59f6633fdb01ecae4e958f008c5aa79dca7d390")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb14c249e3db96255a7f797a9059b078860016e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("MagnumApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MagnumApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
