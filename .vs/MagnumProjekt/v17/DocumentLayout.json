@@ -3,120 +3,12 @@
   "WorkspaceRootPath": "D:\\Daten\\Programmierung\\MagnumProjekt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.shared\\applicationstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|solutionrelative:magnum.shared\\applicationstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC45953-4921-418B-8EC1-10D23E99104F}|MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumapp\\magnumapp.client\\pages\\gerichteseite.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5CC45953-4921-418B-8EC1-10D23E99104F}|MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj|solutionrelative:magnumapp\\magnumapp.client\\pages\\gerichteseite.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC45953-4921-418B-8EC1-10D23E99104F}|MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumapp\\magnumapp.client\\pages\\gerichteseite.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC45953-4921-418B-8EC1-10D23E99104F}|MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj|solutionrelative:magnumapp\\magnumapp.client\\pages\\gerichteseite.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC45953-4921-418B-8EC1-10D23E99104F}|MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumapp\\magnumapp.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5CC45953-4921-418B-8EC1-10D23E99104F}|MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj|solutionrelative:magnumapp\\magnumapp.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC45953-4921-418B-8EC1-10D23E99104F}|MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumapp\\magnumapp.client\\pages\\home.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC45953-4921-418B-8EC1-10D23E99104F}|MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj|solutionrelative:magnumapp\\magnumapp.client\\pages\\home.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.shared\\extensions\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|solutionrelative:magnum.shared\\extensions\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC45953-4921-418B-8EC1-10D23E99104F}|MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumapp\\magnumapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC45953-4921-418B-8EC1-10D23E99104F}|MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj|solutionrelative:magnumapp\\magnumapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|solutionrelative:magnum.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.shared\\services\\igerichtdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|solutionrelative:magnum.shared\\services\\igerichtdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.api\\controllers\\beigabecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|solutionrelative:magnum.api\\controllers\\beigabecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.api\\controllers\\zutatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|solutionrelative:magnum.api\\controllers\\zutatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.shared\\services\\beigabedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|solutionrelative:magnum.shared\\services\\beigabedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.shared\\services\\ibeigabedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|solutionrelative:magnum.shared\\services\\ibeigabedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.shared\\services\\gerichtdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|solutionrelative:magnum.shared\\services\\gerichtdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.shared\\services\\izutatdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|solutionrelative:magnum.shared\\services\\izutatdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.shared\\services\\zutatdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67AA4CA9-2D2C-4570-ACAE-9CC516198BC6}|Magnum.Shared\\Magnum.Shared.csproj|solutionrelative:magnum.shared\\services\\zutatdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A1BDA37-B3E1-4334-A315-069BB6BDC567}|MagnumProjekt\\Magnum.Model.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumprojekt\\nahrung\\data\\nahrungsdataconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A1BDA37-B3E1-4334-A315-069BB6BDC567}|MagnumProjekt\\Magnum.Model.csproj|solutionrelative:magnumprojekt\\nahrung\\data\\nahrungsdataconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.api\\models\\gerichtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|solutionrelative:magnum.api\\models\\gerichtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.api\\models\\zutatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|solutionrelative:magnum.api\\models\\zutatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.api\\models\\izutatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|solutionrelative:magnum.api\\models\\izutatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.api\\models\\ibeigaberepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|solutionrelative:magnum.api\\models\\ibeigaberepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.api\\models\\beigaberepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|solutionrelative:magnum.api\\models\\beigaberepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}|MagnumApp\\MagnumApp\\MagnumApp.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumapp\\magnumapp\\wwwroot\\app_bethany.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}|MagnumApp\\MagnumApp\\MagnumApp.csproj|solutionrelative:magnumapp\\magnumapp\\wwwroot\\app_bethany.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}|MagnumApp\\MagnumApp\\MagnumApp.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumapp\\magnumapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}|MagnumApp\\MagnumApp\\MagnumApp.csproj|solutionrelative:magnumapp\\magnumapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}|MagnumApp\\MagnumApp\\MagnumApp.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumapp\\magnumapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}|MagnumApp\\MagnumApp\\MagnumApp.csproj|solutionrelative:magnumapp\\magnumapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.api\\controllers\\gerichtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|solutionrelative:magnum.api\\controllers\\gerichtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.api\\models\\gerichtdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|solutionrelative:magnum.api\\models\\gerichtdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.api\\models\\igerichtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|solutionrelative:magnum.api\\models\\igerichtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnum.api\\models\\nahrungdataextraktor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F0FDF19-FCE3-477A-9F64-26FF0E5D687E}|Magnum.Api\\Magnum.Api.csproj|solutionrelative:magnum.api\\models\\nahrungdataextraktor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A1BDA37-B3E1-4334-A315-069BB6BDC567}|MagnumProjekt\\Magnum.Model.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumprojekt\\nahrung\\gericht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A1BDA37-B3E1-4334-A315-069BB6BDC567}|MagnumProjekt\\Magnum.Model.csproj|solutionrelative:magnumprojekt\\nahrung\\gericht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -125,8 +17,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 267,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 260,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,379 +42,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Magnum.Api\\Program.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Program.cs",
-              "RelativeToolTip": "Magnum.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:48:04.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ZutatController.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Controllers\\ZutatController.cs",
-              "RelativeDocumentMoniker": "Magnum.Api\\Controllers\\ZutatController.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Controllers\\ZutatController.cs",
-              "RelativeToolTip": "Magnum.Api\\Controllers\\ZutatController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:45:45.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationState.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\ApplicationState.cs",
-              "RelativeDocumentMoniker": "Magnum.Shared\\ApplicationState.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\ApplicationState.cs",
-              "RelativeToolTip": "Magnum.Shared\\ApplicationState.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:43:57.241Z",
+              "Title": "app_bethany.css",
+              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css",
+              "RelativeDocumentMoniker": "MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css",
+              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css",
+              "RelativeToolTip": "MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-02T20:11:53.489Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 207,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Home.razor",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "MagnumApp\\MagnumApp.Client\\Pages\\Home.razor",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\Pages\\Home.razor",
-              "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T18:41:10.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NahrungsDataConverter.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt\\Nahrung\\Data\\NahrungsDataConverter.cs",
-              "RelativeDocumentMoniker": "MagnumProjekt\\Nahrung\\Data\\NahrungsDataConverter.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt\\Nahrung\\Data\\NahrungsDataConverter.cs",
-              "RelativeToolTip": "MagnumProjekt\\Nahrung\\Data\\NahrungsDataConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:25:17.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IZutatDataService.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Services\\IZutatDataService.cs",
-              "RelativeDocumentMoniker": "Magnum.Shared\\Services\\IZutatDataService.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Services\\IZutatDataService.cs",
-              "RelativeToolTip": "Magnum.Shared\\Services\\IZutatDataService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:21:17.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Extensions\\Extensions.cs",
-              "RelativeDocumentMoniker": "Magnum.Shared\\Extensions\\Extensions.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Extensions\\Extensions.cs",
-              "RelativeToolTip": "Magnum.Shared\\Extensions\\Extensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:19:57.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BeigabeDataService.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Services\\BeigabeDataService.cs",
-              "RelativeDocumentMoniker": "Magnum.Shared\\Services\\BeigabeDataService.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Services\\BeigabeDataService.cs",
-              "RelativeToolTip": "Magnum.Shared\\Services\\BeigabeDataService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:17:49.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IBeigabeDataService.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Services\\IBeigabeDataService.cs",
-              "RelativeDocumentMoniker": "Magnum.Shared\\Services\\IBeigabeDataService.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Services\\IBeigabeDataService.cs",
-              "RelativeToolTip": "Magnum.Shared\\Services\\IBeigabeDataService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:17:08.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ZutatDataService.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Services\\ZutatDataService.cs",
-              "RelativeDocumentMoniker": "Magnum.Shared\\Services\\ZutatDataService.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Services\\ZutatDataService.cs",
-              "RelativeToolTip": "Magnum.Shared\\Services\\ZutatDataService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:16:40.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\Program.cs",
-              "RelativeDocumentMoniker": "MagnumApp\\MagnumApp.Client\\Program.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\Program.cs",
-              "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:13:54.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Home.razor.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\Pages\\Home.razor.cs",
-              "RelativeDocumentMoniker": "MagnumApp\\MagnumApp.Client\\Pages\\Home.razor.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\Pages\\Home.razor.cs",
-              "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Pages\\Home.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:12:35.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 1,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "MagnumApp\\MagnumApp\\Components\\Layout\\MainLayout.razor",
               "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "MagnumApp\\MagnumApp\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T18:10:59.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "App.razor",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\Components\\App.razor",
-              "RelativeDocumentMoniker": "MagnumApp\\MagnumApp\\Components\\App.razor",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\Components\\App.razor",
-              "RelativeToolTip": "MagnumApp\\MagnumApp\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T18:10:53.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BeigabeController.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Controllers\\BeigabeController.cs",
-              "RelativeDocumentMoniker": "Magnum.Api\\Controllers\\BeigabeController.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Controllers\\BeigabeController.cs",
-              "RelativeToolTip": "Magnum.Api\\Controllers\\BeigabeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:00:32.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BeigabeRepository.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\BeigabeRepository.cs",
-              "RelativeDocumentMoniker": "Magnum.Api\\Models\\BeigabeRepository.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\BeigabeRepository.cs",
-              "RelativeToolTip": "Magnum.Api\\Models\\BeigabeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:54:38.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IBeigabeRepository.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\IBeigabeRepository.cs",
-              "RelativeDocumentMoniker": "Magnum.Api\\Models\\IBeigabeRepository.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\IBeigabeRepository.cs",
-              "RelativeToolTip": "Magnum.Api\\Models\\IBeigabeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:54:03.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IZutatRepository.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\IZutatRepository.cs",
-              "RelativeDocumentMoniker": "Magnum.Api\\Models\\IZutatRepository.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\IZutatRepository.cs",
-              "RelativeToolTip": "Magnum.Api\\Models\\IZutatRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:51:31.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "NahrungDataExtraktor.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\NahrungDataExtraktor.cs",
-              "RelativeDocumentMoniker": "Magnum.Api\\Models\\NahrungDataExtraktor.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\NahrungDataExtraktor.cs",
-              "RelativeToolTip": "Magnum.Api\\Models\\NahrungDataExtraktor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:51:30.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ZutatRepository.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\ZutatRepository.cs",
-              "RelativeDocumentMoniker": "Magnum.Api\\Models\\ZutatRepository.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\ZutatRepository.cs",
-              "RelativeToolTip": "Magnum.Api\\Models\\ZutatRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:51:29.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "GerichtDbContext.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\GerichtDbContext.cs",
-              "RelativeDocumentMoniker": "Magnum.Api\\Models\\GerichtDbContext.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\GerichtDbContext.cs",
-              "RelativeToolTip": "Magnum.Api\\Models\\GerichtDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:51:24.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IGerichtDataService.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Services\\IGerichtDataService.cs",
-              "RelativeDocumentMoniker": "Magnum.Shared\\Services\\IGerichtDataService.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Services\\IGerichtDataService.cs",
-              "RelativeToolTip": "Magnum.Shared\\Services\\IGerichtDataService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:37:49.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GerichtRepository.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\GerichtRepository.cs",
-              "RelativeDocumentMoniker": "Magnum.Api\\Models\\GerichtRepository.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\GerichtRepository.cs",
-              "RelativeToolTip": "Magnum.Api\\Models\\GerichtRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:32:37.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IGerichtRepository.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\IGerichtRepository.cs",
-              "RelativeDocumentMoniker": "Magnum.Api\\Models\\IGerichtRepository.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Models\\IGerichtRepository.cs",
-              "RelativeToolTip": "Magnum.Api\\Models\\IGerichtRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:32:18.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GerichtController.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Controllers\\GerichtController.cs",
-              "RelativeDocumentMoniker": "Magnum.Api\\Controllers\\GerichtController.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Api\\Controllers\\GerichtController.cs",
-              "RelativeToolTip": "Magnum.Api\\Controllers\\GerichtController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:32:04.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Gericht.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt\\Nahrung\\Gericht.cs",
-              "RelativeDocumentMoniker": "MagnumProjekt\\Nahrung\\Gericht.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumProjekt\\Nahrung\\Gericht.cs",
-              "RelativeToolTip": "MagnumProjekt\\Nahrung\\Gericht.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:21:15.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GerichteSeite.razor",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\Pages\\GerichteSeite.razor",
-              "RelativeDocumentMoniker": "MagnumApp\\MagnumApp.Client\\Pages\\GerichteSeite.razor",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\Pages\\GerichteSeite.razor",
-              "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Pages\\GerichteSeite.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T17:20:56.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GerichteSeite.razor.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\Pages\\GerichteSeite.razor.cs",
-              "RelativeDocumentMoniker": "MagnumApp\\MagnumApp.Client\\Pages\\GerichteSeite.razor.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\Pages\\GerichteSeite.razor.cs",
-              "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Pages\\GerichteSeite.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:20:50.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GerichtDataService.cs",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Services\\GerichtDataService.cs",
-              "RelativeDocumentMoniker": "Magnum.Shared\\Services\\GerichtDataService.cs",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\Magnum.Shared\\Services\\GerichtDataService.cs",
-              "RelativeToolTip": "Magnum.Shared\\Services\\GerichtDataService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T16:47:52.57Z",
+              "WhenOpened": "2024-09-02T20:13:42.466Z",
               "EditorCaption": ""
             }
           ]
