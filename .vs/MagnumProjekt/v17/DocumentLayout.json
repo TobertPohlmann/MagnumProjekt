@@ -17,7 +17,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 205,
+          "DockedWidth": 260,
           "SelectedChildIndex": 5,
           "Children": [
             {
@@ -46,9 +46,9 @@
               "Title": "app_bethany.css",
               "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css",
               "RelativeDocumentMoniker": "MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css*",
-              "RelativeToolTip": "MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
+              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css",
+              "RelativeToolTip": "MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-09-02T20:11:53.489Z",
               "EditorCaption": ""
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "DockedWidth": 262,
+          "DockedWidth": 207,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -67,7 +67,7 @@
               "RelativeDocumentMoniker": "MagnumApp\\MagnumApp\\Components\\Layout\\MainLayout.razor",
               "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "MagnumApp\\MagnumApp\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-02T20:13:42.466Z",
               "EditorCaption": ""
