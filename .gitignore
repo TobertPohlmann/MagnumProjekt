@@ -8,16 +8,17 @@
 *.vsidx
 
 # Build results
-MagnumProjekt/[Dd]ebug/
-MagnumProjekt/[Rr]elease/
-MagnumProjekt/x64/
-MagnumProjekt/[Bb]in/
-MagnumProjekt/[Oo]bj/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/x64/
+**/[Bb]in/
+**/[Oo]bj/
 
 # MSTest test Results
 MagnumProjekt/[Tt]est[Rr]esult*/
 MagnumProjekt/[Bb]uild[Ll]og.*
 
+*.AssemblyInfo.cs
 *_i.c
 *_p.c
 *_i.h
