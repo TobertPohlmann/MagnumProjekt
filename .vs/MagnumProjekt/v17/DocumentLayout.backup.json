@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Daten\\Programmierung\\MagnumProjekt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}|MagnumApp\\MagnumApp\\MagnumApp.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumapp\\magnumapp\\wwwroot\\app_bethany.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}|MagnumApp\\MagnumApp\\MagnumApp.csproj|solutionrelative:magnumapp\\magnumapp\\wwwroot\\app_bethany.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}|MagnumApp\\MagnumApp\\MagnumApp.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumapp\\magnumapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}|MagnumApp\\MagnumApp\\MagnumApp.csproj|solutionrelative:magnumapp\\magnumapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CC45953-4921-418B-8EC1-10D23E99104F}|MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumapp\\magnumapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CC45953-4921-418B-8EC1-10D23E99104F}|MagnumApp\\MagnumApp.Client\\MagnumApp.Client.csproj|solutionrelative:magnumapp\\magnumapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F8CF638-BFF2-431C-8B0C-35E77C1C97F5}|MagnumApp\\MagnumApp\\MagnumApp.csproj|d:\\daten\\programmierung\\magnumprojekt\\magnumapp\\magnumapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -17,8 +21,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 205,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 385,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,33 +45,50 @@
               "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "app_bethany.css",
-              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css",
-              "RelativeDocumentMoniker": "MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css",
-              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css*",
-              "RelativeToolTip": "MagnumApp\\MagnumApp\\wwwroot\\app_bethany.css*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-02T20:11:53.489Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         },
         {
-          "DockedWidth": 262,
+          "DockedWidth": 82,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\Components\\App.razor",
+              "RelativeDocumentMoniker": "MagnumApp\\MagnumApp\\Components\\App.razor",
+              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\Components\\App.razor",
+              "RelativeToolTip": "MagnumApp\\MagnumApp\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T14:01:14.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\Program.cs",
+              "RelativeDocumentMoniker": "MagnumApp\\MagnumApp.Client\\Program.cs",
+              "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp.Client\\Program.cs",
+              "RelativeToolTip": "MagnumApp\\MagnumApp.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:01:07.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "MagnumApp\\MagnumApp\\Components\\Layout\\MainLayout.razor",
               "ToolTip": "D:\\Daten\\Programmierung\\MagnumProjekt\\MagnumApp\\MagnumApp\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "MagnumApp\\MagnumApp\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-02T20:13:42.466Z",
               "EditorCaption": ""
