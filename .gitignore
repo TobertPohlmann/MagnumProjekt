@@ -18,6 +18,7 @@ MagnumProjekt/[Oo]bj/
 MagnumProjekt/[Tt]est[Rr]esult*/
 MagnumProjekt/[Bb]uild[Ll]og.*
 
+*.AssemblyInfo.cs
 *_i.c
 *_p.c
 *_i.h
